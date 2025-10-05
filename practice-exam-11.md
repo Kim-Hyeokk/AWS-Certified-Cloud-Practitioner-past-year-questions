@@ -4,16 +4,6 @@ layout: exam
 
 # Practice Exam 11
 
-1. How can a company reduce its Total Cost of Ownership (TCO) using AWS?
-    - A. By minimizing large capital expenditures.
-    - B. By having no responsibility for third-party license costs.
-    - C. By having no operational expenditures.
-    - D. By having AWS manage applications.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
 2. Which options does AWS make available for customers who want to learn about security in the cloud in an instructor-led setting? (Select TWO)
     - A. AWS Trusted Advisor.
     - B. AWS Online Tech Talks.
@@ -22,7 +12,8 @@ layout: exam
     - E. AWS Classroom Training.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, E
+      Correct answer: B, E</br>
+      A, C, D 옵션은 자기주도적 학습(Self-paced) 또는 참조용 자료에 해당합니다.
     </details>
 
 3. Which of the following will enhance the security of access to the AWS Management Console’? (Select TWO)
@@ -33,18 +24,10 @@ layout: exam
     - E. Password policies.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C, E
-    </details>
-
-4. Which of the following features can be configured through the Amazon Virtual Private Cloud (Amazon VPC) Dashboard? (Select TWO)
-    - A. Amazon CloudFront distributions.
-    - B. Amazon Route 53.
-    - C. Security Groups.
-    - D. Subnets.
-    - E. Elastic Load Balancing.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C, D
+      Correct answer: C, E</br>
+      AWS Secrets Manager (A) → 애플리케이션과 서비스 간 비밀번호/키 관리용</br>
+      AWS Certificate Manager (B) → SSL/TLS 인증서 관리용</br>
+      Security groups (D) → 네트워크 접근 제어용</br>
     </details>
 
 5. For which auditing process does AWS have sole responsibility?
@@ -54,49 +37,8 @@ layout: exam
     - D. AWS CloudTrail Logs.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-6. Which of the following are advantages of AWS consolidated billing? (Select TWO)
-    - A. The ability to receive one bill for multiple accounts.
-    - B. Service limits increasing by default in all accounts.
-    - C. A fixed discount on the monthly bill.
-    - D. Potential volume discounts, as usage in all accounts is combined.
-    - E. The automatic extension of the master account’s AWS support plan to all accounts.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, D
-    </details>
-
-7. Which of the following common IT tasks can AWS cover to free up company IT resources? (Select TWO)
-    - A. Patching databases software.
-    - B. Testing application releases.
-    - C. Backing up databases.
-    - D. Creating database schema.
-    - E. Running penetration tests.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, C
-    </details>
-
-8. A company wants to expand from one AWS Region into a second AWS Region. What does the company need to do to start supporting the new Region?
-    - A. Contact an AWS Account Manager to sign a new contract.
-    - B. Move an Availability Zone to the new Region.
-    - C. Begin deploying resources in the second Region.
-    - D. Download the AWS Management Console for the new Region.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-9. Why is it beneficial to use Elastic Load Balancers with applications?
-    - A. They allow for the conversion from Application Load.
-    - B. Balancers to Classic Load Balancers.
-    - C. They are capable of handling constant changes in network traffic patterns.
-    - D. They automatically adjust capacity. They are provided at no charge to users.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: B</br>
+      **물리적 보안(Physical security)**은 고객이 직접 관여할 수 없고, AWS가 단독으로 책임집니다.
     </details>
 
 10. Which is the MINIMUM AWS Support plan that allows for one-hour target response time for support cases?
@@ -106,7 +48,8 @@ layout: exam
     - D. Basic
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+      Correct answer: B</br>
+      응답 시간 1시간 이내 지원을 제공하는 최소 AWS Support 플랜은 Business Support이다.
     </details>
 
 11. What is the lowest-cost, durable storage option for retaining database backups for immediate retrieval?
@@ -116,27 +59,8 @@ layout: exam
     - D. Amazon EC2 Instance Store.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-12. What AWS team assists customers with accelerating cloud adoption through paid engagements in any of several specialty practice areas?
-    - A. AWS Enterprise Support.
-    - B. AWS Solutions Architects.
-    - C. AWS Professional Services.
-    - D. AWS Account Managers.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-13. A company needs 24/7 phone email and chat access with a response time of less than 1 hour if a production system has a service interruption Which AWS Support plan meets these requirements at the LOWEST cost?
-    - A. Basic.
-    - B. Developer.
-    - C. Business.
-    - D. Enterprise.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: A</br>
+      Glacier는 장기 아카이브용, EBS/Instance Store는 블록 스토리지로 사용 목적이 다르다.
     </details>
 
 14. If a customer needs to audit the change management of AWS resources, which of the following AWS services should the customer use?
@@ -146,7 +70,9 @@ layout: exam
     - D. Amazon Inspector.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+      Correct answer: A</br>
+      AWS Config는 AWS 자원 변경 내역을 추적하고 감사할 수 있어, **변경 관리(change management)**를 검증하는 서비스다.</br>
+      CloudWatch는 모니터링, Inspector는 취약점 점검용이다.
     </details>
 
 15. How does AWS Trusted Advisor provide guidance to users of the AWS Cloud? (Select TWO)
@@ -157,27 +83,9 @@ layout: exam
     - E. It provides proactive alerting whenever an Amazon EC2 instance has been compromised.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, C
-    </details>
-
-16. Which AWS managed service is used to host databases?
-    - A. AWS Batch.
-    - B. AWS Artifact.
-    - C. AWS Data Pipeline.
-    - D. Amazon RDS.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-17. Which of the following Identity and Access Management (IAM) entities is associated with an access key ID and secret access key when using AWS Command Line Interface (AWS CLI)?
-    - A. IAM group.
-    - B. IAM user.
-    - C. IAM role.
-    - D. IAM policy.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+      Correct answer: B, C</br>
+      현재 사용량 기반 비용 최적화 권고(B)</br>
+      권한 설정으로 인한 보안 취약점 감지(C)
     </details>
 
 18. Under the shared responsibility model, which of the following is the customer responsible for?
@@ -187,7 +95,8 @@ layout: exam
     - D. Ensuring that network cables are category six or higher.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: C</br>
+      공유 책임 모델에서 고객은 데이터 암호화, 접근 제어 등 클라우드 내 데이터 보호를 책임진다.
     </details>
 
 19. Which AWS service provides a simple and scalable shared file storage solution for use with Linux-based AWS and on-premises servers?
@@ -197,18 +106,8 @@ layout: exam
     - D. Amazon EFS.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-20. What credential components are required to gain programmatic access to an AWS account? (Select TWO)
-    - A. An access key ID.
-    - B. A primary key.
-    - C. A secret access key.
-    - D. A user ID.
-    - E. A secondary key.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, C
+      Correct answer: D</br>
+      Linux 기반 AWS와 온프레미스 서버에서 사용할 수 있는 공유 파일 스토리지는 Amazon EFS이다.
     </details>
 
 21. Which of the following is a shared control between the customer and AWS?
@@ -218,17 +117,8 @@ layout: exam
     - D. Awareness.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-22. Which type of AWS storage is ephemeral and is deleted when an instance is stopped Of terminated?
-    - A. Amazon EBS.
-    - B. Amazon EC2 instance store.
-    - C. Amazon EFS.
-    - D. Amazon S3.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+      Correct answer: D</br>
+      공유 책임 모델에서 Awareness는 고객과 AWS가 공동으로 관리하는 영역이다.
     </details>
 
 23. Which of the following is an advantage of consolidated billing on AWS?
@@ -238,7 +128,8 @@ layout: exam
     - D. Eliminates the need for tagging.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+      Correct answer: A</br>
+      Consolidated Billing의 장점은 여러 계정 사용량을 합산하여 볼륨 할인을 받을 수 있다는 점이다.
     </details>
 
 24. Which services are parts of the AWS serverless platform?
@@ -248,7 +139,8 @@ layout: exam
     - D. Amazon Athena, Amazon Cognito, Amazon EC2.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: C</br>
+      AWS 서버리스 플랫폼 서비스에는 Step Functions, DynamoDB, SNS 등이 포함된다.
     </details>
 
 25. Which of the following Amazon EC2 pricing models allow customers to use existing server-bound software licenses?
@@ -258,7 +150,8 @@ layout: exam
     - D. On-Demand Instances.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: C</br>
+      Dedicated Hosts를 사용하면 기존 서버 라이선스를 AWS에서 그대로 사용할 수 있다.
     </details>
 
 26. Which of the following security measures protect access to an AWS account? (Select TWO)
@@ -269,17 +162,9 @@ layout: exam
     - E. Activate multi-factor authentication (MFA) for privileged users.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, E
-    </details>
-
-27. Which AWS service provides the ability to manage infrastructure as code?
-    - A. AWS CodePipeline.
-    - B. AWS CodeDeploy.
-    - C. AWS Direct Connect.
-    - D. AWS CloudFormation.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: B, E</br>
+      최소 권한 원칙 적용(B)</br>
+      중요 사용자에 대한 MFA 활성화(E)
     </details>
 
 28. What is an advantage of deploying an application across multiple Availability Zones?
@@ -289,7 +174,9 @@ layout: exam
     - D. There will be decreased application latency that will improve the user experience.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+      Correct answer: B</br>
+      여러 Availability Zone(AZ)에 애플리케이션 배포 시, 단일 AZ 장애에도 애플리케이션이 계속 동작해 가용성이 향상된다.</br>
+      자연 재해로 인한 전체 리전 영향은 AZ 분산만으로는 보호되지 않는다.
     </details>
 
 29. A customer needs to run a MySQL database that easily scales. Which AWS service should they use?
@@ -299,37 +186,8 @@ layout: exam
     - D. Amazon ElastiCache.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-30. Which of the following is an AWS Cloud architecture design principle?
-    - A. Implement single points of failure.
-    - B. Implement loose coupling.
-    - C. Implement monolithic design.
-    - D. Implement vertical scaling.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-31. AWS Enterprise Support users have access to which service or feature that is not available to users with other AWS Support plans?
-    - A. AWS Trusted Advisor.
-    - B. AWS Support case.
-    - C. Concierge team.
-    - D. Amazon Connect.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-32. A company will be moving from an on-premises data center to the AWS Cloud. What would be one financial difference after the move?
-    - A. Moving from variable operational expense ( opex ) to upfront capital expense (capex).
-    - B. Moving from upfront capital expense (capex) to variable capital expense (capex).
-    - C. Moving from upfront capital expense (capex) to variable operational expense ( opex ).
-    - D. Elimination of upfront capital expense (capex) and elimination of variable operational expense ( opex ).
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: A</br>
+      MySQL과 호환되며 쉽게 확장 가능한 데이터베이스는 Amazon Aurora이다.
     </details>
 
 33. When performing a cost analysis that supports physical isolation of a customer workload, which compute hosting model should be accounted for in the Total Cost of Ownership (TCO)?
@@ -339,7 +197,8 @@ layout: exam
     - D. No Upfront Reserved Instances
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+      Correct answer: A</br>
+      물리적 격리(Dedicated Hosts) 환경은 비용 분석 시 TCO에 포함해야 한다.
     </details>
 
 34. Which AWS service should be used for long-term, low-cost storage of data backups?
@@ -349,27 +208,8 @@ layout: exam
     - D. AWS EBS.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-35. Which is the MINIMUM AWS Support plan that provides technical support through phone calls?
-    - A. Enterprise.
-    - B. Business.
-    - C. Developer.
-    - D. Basic.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-36. Which Amazon EC2 instance pricing model can provide discounts of up to 90%?
-    - A. Reserved Instances.
-    - B. On-Demand.
-    - C. Dedicated Hosts.
-    - D. Spot Instances.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: B</br>
+      장기적 저비용 백업 스토리지로 Amazon Glacier가 적합하다.
     </details>
 
 37. Which of the following AWS services can be used to serve large amounts of online video content with the lowest possible latency? (Select TWO)
@@ -380,7 +220,10 @@ layout: exam
     - E. Amazom CloudFront.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, E
+      Correct answer: B, E</br>
+      대량 온라인 영상 서비스를 **최저 지연(Low latency)**으로 제공하려면</br>
+      객체 스토리지 S3</br>
+      콘텐츠 배포 CDN CloudFront
     </details>
 
 38. What can AWS edge locations be used for? (Select TWO)
@@ -391,7 +234,9 @@ layout: exam
     - E. Sending notification messages to end users.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, D
+      Correct answer: B, D</br>
+      사용자에게 가까운 위치에서 콘텐츠 전달(B)</br>
+      서버 부하 감소를 위한 캐싱(D)
     </details>
 
 39. A company is planning to migrate from on-premises to the AWS Cloud. When AWS tool or service provides detailed reports on estimated cost savings after migration?
@@ -401,7 +246,8 @@ layout: exam
     - D. AWS Migration Hub.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+      Correct answer: A</br>
+      AWS TCO Calculator는 클라우드 이전 후 비용 절감 추정 보고서를 제공한다.
     </details>
 
 40. Which AWS service provides a customized view of the health of specific AWS services that power a customer’s workloads running on AWS?
@@ -411,37 +257,8 @@ layout: exam
     - D. Amazon CloudWatch.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-41. One of the advantages to moving infrastructure from an on-premises data center to the AWS Cloud is:
-    - A. It allows the business to eliminate IT bills.
-    - B. It allows the business to put a server in each customer’s data center.
-    - C. It allows the business to focus on business activities.
-    - D. It allows the business to leave servers unpatched.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-42. How can an AWS user with an AWS Basic Support plan obtain technical assistance from AWS?
-    - A. AWS Senior Support Engineers.
-    - B. AWS Technical Account Managers.
-    - C. AWS Trusted Advisor.
-    - D. AWS Discussion Forums.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-43. How can a user protect against AWS service disruptions if a natural disaster affects an entire geographic area?
-    - A. Deploy applications across multiple Availability Zones within an AWS Region.
-    - B. Use a hybrid cloud computing deployment model within the geographic area.
-    - C. Deploy applications across multiple AWS Regions.
-    - D. Store application artifacts using AWS Artifact and replicate them across multiple AWS Regions.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: C</br>
+      Service Health Dashboard는 전체 서비스 상태, X-Ray는 트레이싱, CloudWatch는 모니터링용이다.
     </details>
 
 44. Which activity is a customer responsibility in the AWS Cloud according to the AWS shared responsibility model?
@@ -451,28 +268,8 @@ layout: exam
     - D. Ensuring Amazon EBS volumes are backed up.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-45. In which scenario should Amazon EC2 Spot Instances be used?
-    - A. A company wants to move its main website to AWS from an on-premises web server.
-    - B. A company has a number of application services whose Service Level Agreement (SLA) requires 99.999% uptime.
-    - C. A company’s heavily used legacy database is currently running on-premises.
-    - D. A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-46. A customer is deploying a new application and needs to choose an AWS Region. Which of the following factors could influence the customer’s decision? (Select TWO)
-    - A. Reduced latency to users.
-    - B. The application’s presentation in the local language.
-    - C. Data sovereignty compliance.
-    - D. Cooling costs in hotter climates.
-    - E. Proximity to the customer’s office for on-site visits.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, C
+      Correct answer: D</br>
+      고객 책임 영역: EBS 볼륨 백업 등 클라우드 내 자원 관리
     </details>
 
 47. Which AWS service provides alerts when an AWS event may impact a company’s AWS resources?
@@ -482,36 +279,6 @@ layout: exam
     - D. AWS Infrastructure Event Management.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-48. Which disaster recovery scenario offers the lowest probability of down time?
-    - A. Backup and restore.
-    - B. Pilot light.
-    - C. Warm standby.
-    - D. Multi-site active-active.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-49. Which service’s PRIMARY purpose is software version control?
-    - A. Amazon CodeStar.
-    - B. AWS Command Line Interface (AWS CLI).
-    - C. Amazon Cognito.
-    - D. AWS CodeCommit.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-50. How can a customer increase security to AWS account logons? (Select TWO)
-    - A. Configure AWS Certificate Manager
-    - B. Enable Multi-Factor Authentication (MFA)
-    - C. Use Amazon Cognito to manage access
-    - D. Configure a strong password policy
-    - E. Enable AWS Organizations
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, D
+      Correct answer: A</br>
+      Service Health Dashboard는 전체 서비스 상태를 보여준다.
     </details>
