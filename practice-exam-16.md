@@ -4,63 +4,6 @@ layout: exam
 
 # Practice Exam 16
 
-1. What will help a company perform a cost benefit analysis of migrating to the AWS Cloud?
-    - A. Cost Explorer
-    - B. AWS Total Cost of Ownership (TCO) Calculator
-    - C. AWS Simple Monthly Calculator
-    - D. AWS Trusted Advisor
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - AWS TCO calculators allow you to estimate the cost savings when using AWS and provide a detailed set of reports that can be used in executive presentations.
-    - The calculators also give you the option to modify assumptions that best meet your business needs.
-
-    Reference: <https://aws.amazon.com/tco-calculator/>
-
-    </details>
-
-2. Which of the following provides the ability to share the cost benefits of Reserved Instances across AWS accounts?
-    - A. AWS Cost Explorer between AWS accounts
-    - B. Linked accounts and consolidated billing
-    - C. Amazon Elastic Compute Cloud (Amazon EC2) Reserved Instance Utilization Report
-    - D. Amazon EC2 Instance Usage Report between AWS accounts
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - The way that Reserved Instance discounts apply to accounts in an organization's consolidated billing family depends on whether Reserved Instance sharing is turned on or off for the account.
-    - By default, Reserved Instance sharing for all accounts in an organization is turned on.
-    - You can change this setting by Turning Off Reserved Instance Sharing for an account.
-    - The capacity reservation for a Reserved Instance applies only to the account the Reserved Instance was purchased on, regardless of whether Reserved Instance sharing is turned on or off.
-
-    Reference: <https://aws.amazon.com/premiumsupport/knowledge-center/ec2-ri-consolidated-billing/>
-
-    </details>
-
-3. A company has multiple AWS accounts and wants to simplify and consolidate its billing process. <br/>Which AWS service will achieve this?
-    - A. AWS Cost and Usage Reports
-    - B. AWS Organizations
-    - C. AWS Cost Explorer
-    - D. AWS Budgets
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - You can use the consolidated billing feature in AWS Organizations to consolidate billing and payment for multiple AWS accounts or multiple Amazon Internet Services Pvt. Ltd (AISPL) accounts.
-    - Every organization in AWS Organizations has a master (payer) account that pays the charges of all the member (linked)
-    accounts.
-
-    Reference: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html>
-
-    </details>
-
 4. A company is designing an application hosted in a single AWS Region serving end-users spread across the world. The company wants to provide the end-users low latency access to the application data. <br/> Which of the following services will help fulfill this requirement?
     - A. Amazon CloudFront
     - B. AWS Direct Connect
@@ -72,25 +15,8 @@ layout: exam
     Correct Answer: A
 
     Explanation:
-    - Amazon CloudFront is a content delivery network (CDN) service that distributes data from multiple locations worldwide, providing low-latency access to end-users.
-
-    </details>
-
-5. Which of the following deployment models enables customers to fully trade their capital IT expenses for operational expenses?
-    - A. On-premises
-    - B. Hybrid
-    - C. Cloud
-    - D. Platform as a service
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation:
-    - The cloud allows you to trade capital expenses (such as data centers and physical servers) for variable expenses, and only pay for IT as you consume it.
-    - Plus, the variable expenses are much lower than what you would pay to do it yourself because of the economies of scale.
-
-    Reference: <https://aws.amazon.com/what-is-cloud-computing/>
+    - Amazon CloudFront is a content delivery network (CDN) service that distributes data from multiple locations worldwide, providing low-latency access to end-users.</br>
+    Amazon CloudFront는 전 세계 엣지 로케이션을 사용하는 콘텐츠 전송 네트워크(CDN)로, 사용자에게 가장 가까운 위치에서 데이터를 제공하여 지연 시간을 줄입니다.
 
     </details>
 
@@ -109,116 +35,8 @@ layout: exam
     - Following procurement, assets are scanned and tracked, and assets undergoing maintenance are checked and monitored for
     ownership, status, and resolution.
 
-    Reference: <https://aws.amazon.com/compliance/data-center/controls/>
-
-    </details>
-
-7. What feature of Amazon RDS helps to create globally redundant databases?
-    - A. Snapshots
-    - B. Automatic patching and updating
-    - C. Cross-Region read replicas
-    - D. Provisioned IOPS
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://docs.amazonaws.cn/en_us/AmazonRDS/latest/UserGuide/rds-ug.pdf>
-
-    </details>
-
-8. Using AWS Identity and Access Management (IAM) to grant access only to the resources needed to perform a task is a concept known as:
-    - A. restricted access.
-    - B. as-needed access.
-    - C. least privilege access.
-    - D. token access.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation:
-    - When you create IAM policies, follow the standard security advice of granting least privilege, or granting only the permissions required to perform a task.
-    - Determine what users (and roles) need to do and then craft policies that allow them to perform only those tasks.
-
-    Reference: <https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html>
-
-    </details>
-
-9. Which methods can be used to identify AWS costs by departments? (Choose two.)
-    - A. Enable multi-factor authentication for the AWS account root user.
-    - B. Create separate accounts for each department.
-    - C. Use Reserved Instances whenever possible.
-    - D. Use tags to associate each instance with a particular department.
-    - E. Pay bills using purchase orders.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BD
-
-    Explanation:
-    - Tags are key-value pairs that allow you to organize your AWS resources into groups. You can use tags to:
-    - Visualize information about tagged resources in one place, in conjunction with Resource Groups.
-    - View billing information using Cost Explorer and the AWS Cost and Usage report.
-    - Send notifications about spending limits using AWS Budgets.
-    - Use logical groupings of your resources that make sense for your infrastructure or business.
-    - For example, you could organize your resources by:
-      - Project
-      - Cost center
-      - Development environment
-      - Application
-      - Department
-
-    Reference: <https://aws.amazon.com/premiumsupport/knowledge-center/tags-billing-cost-center-project/>
-
-    </details>
-
-10. Under the AWS shared responsibility model, customer responsibilities include which one of the following?
-    - A. Securing the hardware, software, facilities, and networks that run all products and services.
-    - B. Providing certificates, reports, and other documentation directly to AWS customers under NDA.
-    - C. Configuring the operating system, network, and firewall.
-    - D. Obtaining industry certifications and independent third-party attestations.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/>
-
-    </details>
-
-11. Which managed AWS service provides real-time guidance on AWS security best practices?
-    - A. AWS X-Ray
-    - B. AWS Trusted Advisor
-    - C. Amazon CloudWatch
-    - D. AWS Systems Manager
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - AWS offers premium services such as AWS Trusted Advisor, which provides real-time guidance to help you reduce cost, increase performance, and improve security.
-
-    Reference: <https://www.ibm.com/downloads/cas/2N40X4PQ>
-
-    </details>
-
-12. Which feature adds elasticity to Amazon EC2 instances to handle the changing demand for workloads?
-    - A. Resource groups
-    - B. Lifecycle policies
-    - C. Application Load Balancer
-    - D. Amazon EC2 Auto Scaling
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - Support for monitoring the health of each service independently, as health checks are defined at the target group level and many CloudWatch metrics are reported at the target group level.
-    - Attaching a target group to an Auto Scaling group enables you to scale each service dynamically based on demand.
-
-    Reference: <https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html>
+    Reference: <https://aws.amazon.com/compliance/data-center/controls/></br>
+    AWS는 모든 인프라를 API로 관리하므로, 고객은 복잡한 물리적 인벤토리 스캔 없이도 프로그래밍 방식으로 자산 정보를 쉽게 얻을 수 있습니다.
 
     </details>
 
@@ -237,7 +55,8 @@ layout: exam
     - With the basic Cloud infrastructure secured and maintained by AWS, the responsibility for what goes into the cloud falls on you. This covers both client and server side encryption and network traffic protection, security of the operating system, network, and firewall configuration, followed by application security and identity and access management.
     - Firewall configuration remains the responsibility of the end user, which integrates at the platform and application management level. For example, RDS utilizes security groups, which you would be responsible for configuring and implementing.
 
-    Reference: <https://cloudacademy.com/blog/aws-shared-responsibility-model-security/>
+    Reference: <https://cloudacademy.com/blog/aws-shared-responsibility-model-security/></br>
+    고객은 데이터의 암호화(클라이언트/서버 측)와 방화벽(보안 그룹 및 네트워크 ACL) 설정을 포함한 클라우드 내의 보안을 담당합니다.
 
     </details>
 
@@ -258,7 +77,8 @@ layout: exam
     - It provides an optimized data transfer mechanism and bandwidth management, which tolerates unreliable networks and minimizes the amount of data being transferred.
     - It brings the security, manageability, durability, and scalability of AWS to existing enterprise environments through native integration with AWS encryption, identity management, monitoring, and storage services. Typical use cases include backup and archiving, disaster recovery, moving data to S3 for in-cloud workloads, and tiered storage.
 
-    Reference: <https://aws.amazon.com/storagegateway/faqs/>
+    Reference: <https://aws.amazon.com/storagegateway/faqs/></br>
+    AWS Storage Gateway는 온프레미스와 AWS 클라우드 간의 하이브리드 스토리지를 제공하며, 온프레미스 애플리케이션이 파일, 볼륨, 테이프 형식으로 AWS 스토리지를 사용할 수 있게 합니다.
 
     </details>
 
@@ -272,66 +92,8 @@ layout: exam
 
     Correct Answer: C
 
-    Explanation: <https://cloudacademy.com/blog/aws-shared-responsibility-model-security/>
-
-    </details>
-
-16. Which architectural principle is used when deploying an Amazon Relational Database Service (Amazon RDS) instance in Multiple Availability Zone mode?
-    - A. Implement loose coupling.
-    - B. Design for failure.
-    - C. Automate everything that can be automated.
-    - D. Use services, not servers.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - Amazon RDS Multi-AZ deployments provide enhanced availability and durability for Database (DB) Instances, making them a natural fit for production database workloads.
-    - When you provision a Multi-AZ DB Instance, Amazon RDS automatically creates a primary DB Instance and synchronously replicates the data to a standby instance in a different Availability Zone (AZ).
-    - Each AZ runs on its own physically distinct, independent infrastructure, and is engineered to be highly reliable.
-    - In case of an infrastructure failure, Amazon RDS performs an automatic failover to the standby (or to a read replica in the case of Amazon Aurora), so that you can resume database operations as soon as the failover is complete.
-    - Since the endpoint for your DB Instance remains the same after a failover, your application can resume database operation without the need for manual administrative intervention.
-
-    Reference: <https://aws.amazon.com/rds/details/multi-az/>
-
-    </details>
-
-17. What does it mean to grant least privilege to AWS IAM users?
-    - A. It is granting permissions to a single user only.
-    - B. It is granting permissions using AWS IAM policies only.
-    - C. It is granting AdministratorAccess policy permissions to trustworthy users.
-    - D. It is granting only the permissions required to perform a given task.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - When you create IAM policies, follow the standard security advice of granting least privilege, or granting only the permissions required to perform a task.
-    - Determine what users (and roles) need to do and then craft policies that allow them to perform only those tasks.
-
-    Reference: <https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege>
-
-    </details>
-
-18. What is a benefit of loose coupling as a principle of cloud architecture design?
-    - A. It facilitates low-latency request handling.
-    - B. It allows applications to have dependent workflows.
-    - C. It prevents cascading failures between different components.
-    - D. It allows companies to focus on their physical data center operations.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation:
-    - IT systems should ideally be designed in a way that reduces inter-dependencies.
-    - Your components need to be loosely coupled to avoid changes or failure in one of the components from affecting others.
-    - Your infrastructure also needs to have well defined interfaces that allow the various components to interact with each other only through specific, technology-agnostic interfaces.
-    - Modifying any underlying operations without affecting other components should be made possible.
-
-    Reference: <https://www.botmetric.com/blog/aws-cloud-architecture-design-principles/>
+    Explanation: <https://cloudacademy.com/blog/aws-shared-responsibility-model-security/></br>
+    AWS는 컴퓨팅, 스토리지, 네트워킹 등의 기본 인프라(호스트 하드웨어와 펌웨어)의 보안 및 패치를 책임집니다.
 
     </details>
 
@@ -350,149 +112,8 @@ layout: exam
     - These connectivity options include leveraging either the internet or an AWS Direct Connect connection as the network backbone and terminating the connection into either AWS or user-managed network endpoints.
     - Additionally, with AWS, you can choose how network routing is delivered between Amazon VPC and your networks, leveraging either AWS or user-managed network equipment and routes.
 
-    Reference: <https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/> introduction.html
-
-    </details>
-
-20. A company's web application currently has tight dependencies on underlying components, so when one component fails the entire web application fails. <br> Applying which AWS Cloud design principle will address the current design issue?
-    - A. Implementing elasticity, enabling the application to scale up or scale down as demand changes.
-    - B. Enabling several EC2 instances to run in parallel to achieve better performance.
-    - C. Focusing on decoupling components by isolating them and ensuring individual components can function when other components fail.
-    - D. Doubling EC2 computing resources to increase system fault tolerance.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    </details>
-
-21. How can a customer increase security to AWS account logons? (Choose two.)
-    - A. Configure AWS Certificate Manager
-    - B. Enable Multi-Factor Authentication (MFA)
-    - C. Use Amazon Cognito to manage access
-    - D. Configure a strong password policy
-    - E. Enable AWS Organizations
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BD
-
-    Explanation:
-    - Your root account should always be protected by Multi-Factor Authentication (MFA).
-    - This additional layer of security helps protect against unauthorized logins to your account by requiring two factors: something you know (a password) and something you have (for example, an MFA device).
-    - AWS supports virtual and hardware MFA devices and U2F security keys.
-    - Cognito can be used as an Identity Provider (IdP), where it stores and maintains users and credentials securely for your applications, or it can be integrated with OpenID Connect, SAML, and other popular web identity providers like Amazon.com.
-    - Using Amazon Cognito, you can generate temporary access credentials for your clients to access AWS services, eliminating the need to store long-term credentials in client applications.
-
-    Reference: <https://aws.amazon.com/blogs/security/guidelines-for-protecting-your-aws-account-while-using-programmatic-access/>
-
-    </details>
-
-22. What AWS service would be used to centrally manage AWS access across multiple accounts?
-    - A. AWS Service Catalog
-    - B. AWS Config
-    - C. AWS Trusted Advisor
-    - D. AWS Organizations
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - To improve control over your AWS environment, you can use AWS Organizations to create groups of accounts, and then attach policies to a group to ensure the correct policies are applied across the accounts without requiring custom scripts and manual processes.
-
-    Reference: <https://aws.amazon.com/organizations/>
-
-    </details>
-
-23. Which AWS service can a customer use to set up an alert notification when the account is approaching a particular dollar amount?
-    - A. AWS Cost and Usage reports
-    - B. AWS Budgets
-    - C. AWS Cost Explorer
-    - D. AWS Trusted Advisor
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html>
-
-    </details>
-
-24. What can users access from AWS Artifact?
-    - A. AWS security and compliance documents
-    - B. A download of configuration management details for all AWS resources
-    - C. Training materials for AWS services
-    - D. A security assessment of the applications deployed in the AWS Cloud
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation:
-    - You can use AWS Artifact Reports to download AWS security and compliance documents, such as AWS ISO certifications, Payment Card Industry (PCI), and System and Organization Control (SOC) reports.
-
-    Reference: <https://aws.amazon.com/artifact/faq/>
-
-    </details>
-
-25. Which is the MINIMUM AWS Support plan that provides designated Technical Account Managers?
-    - A. Enterprise
-    - B. Business
-    - C. Developer
-    - D. Basic
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/premiumsupport/plans/>
-
-    </details>
-
-26. Which of the following is an AWS Well-Architected Framework design principle related to reliability?
-    - A. Deployment to a single Availability Zone
-    - B. Ability to recover from failure
-    - C. Design for cost optimization
-    - D. Perform operations as code
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/>
-
-    </details>
-
-27. Which type of AWS storage is ephemeral and is deleted when an instance is stopped or terminated?
-    - A. Amazon EBS
-    - B. Amazon EC2 instance store
-    - C. Amazon EFS
-    - D. Amazon S3
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - When you stop or terminate an instance, every block of storage in the instance store is reset.
-    - Therefore, your data cannot be accessed through the instance store of another instance.
-
-    Reference: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html>
-
-    </details>
-
-28. What is an advantage of using the AWS Cloud over a traditional on-premises solution?
-    - A. Users do not have to guess about future capacity needs.
-    - B. Users can utilize existing hardware contracts for purchases.
-    - C. Users can fix costs no matter what their traffic is.
-    - D. Users can avoid audits by using reports from AWS.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://data-flair.training/blogs/aws-advantages/>
+    Reference: <https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/> introduction.html</br>
+    AWS Direct Connect는 고객의 온프레미스 데이터 센터와 AWS 간에 사설 전용 네트워크 연결을 설정하여, 공용 인터넷을 통하지 않는 안정적이고 빠른 하이브리드 연결을 제공합니다.
 
     </details>
 
@@ -506,30 +127,8 @@ layout: exam
 
     Correct Answer: C
 
-    Explanation: <https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html>
-
-    </details>
-
-30. Which of the following is an important architectural principle when designing cloud applications?
-    - A. Store data and backups in the same region.
-    - B. Design tightly coupled system components.
-    - C. Avoid multi-threading.
-    - D. Design for failure
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - There are six design principles for operational excellence in the cloud:
-      - Perform operations as code
-      - Annotate documentation
-      - Make frequent, small, reversible changes
-      - Refine operations procedures frequently
-      - Anticipate failure
-      - Learn from all operational failures
-
-    Reference: <https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/>
+    Explanation: <https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html></br>
+    AWS Lambda는 서버리스 컴퓨팅 서비스로, 고객은 서버 운영 체제, 패치, 용량 관리 등을 걱정할 필요 없이 코드를 실행할 수 있습니다.
 
     </details>
 
@@ -543,7 +142,8 @@ layout: exam
 
     Correct Answer: A
 
-    Explanation: <https://aws.amazon.com/tools/>
+    Explanation: <https://aws.amazon.com/tools/></br>
+    AWS SDK는 다양한 프로그래밍 언어로 AWS 서비스와 상호 작용할 수 있는 API 라이브러리를 제공합니다.
 
     </details>
 
@@ -562,27 +162,8 @@ layout: exam
     - No longer-term commitments or upfront payments are needed.
     - You can increase or decrease your compute capacity depending on the demands of your application and only pay the specified per hourly rates for the instance you use.
 
-    Reference: <https://aws.amazon.com/ec2/pricing/>
-
-    </details>
-
-33. Which of the following services is a MySQL-compatible database that automatically grows storage as needed?
-    - A. Amazon Elastic Compute Cloud (Amazon EC2)
-    - B. Amazon Relational Database Service (Amazon RDS) for MySQL
-    - C. Amazon Lightsail
-    - D. Amazon Aurora
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - Amazon Aurora is a relational database service that combines the speed and availability of high-end commercial databases with the simplicity and cost-effectiveness of open source databases.
-    - The MySQL- compatible edition of Aurora delivers up to 5X the throughput of standard MySQL running on the same hardware, and enables existing MySQL applications and tools to run without requiring modification.
-    - Amazon Aurora will automatically grow the size of your database volume as your database storage needs grow.
-    - Your volume will grow in increments of 10 GB up to a maximum of 64 TB. You don't need to provision excess storage for your database to handle future growth.
-
-    Reference: <https://aws.amazon.com/rds/aurora/mysql-features/>
+    Reference: <https://aws.amazon.com/ec2/pricing/></br>
+    워크로드가 매우 짧은 기간(1년 중 24시간)만 실행되므로, 선납금이 필요한 RI나 중단될 수 있는 Spot 인스턴스보다 온디맨드가 가장 경제적입니다.
 
     </details>
 
@@ -602,7 +183,8 @@ layout: exam
     - You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account.
     - The VPCs can be in different regions (also known as an inter-region VPC peering connection).
 
-    Reference: <https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html>
+    Reference: <https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html></br>
+    VPC 피어링은 두 VPC를 사설 네트워크로 연결하여, 마치 동일한 네트워크에 있는 것처럼 인스턴스들이 통신할 수 있게 합니다.
 
     </details>
 
@@ -619,24 +201,8 @@ layout: exam
     Explanation:
     - AWS CodeCommit is a version control service hosted by Amazon Web Services that you can use to privately store and manage assets (such as documents, source code, and binary files) in the cloud.
 
-    Reference: <https://docs.aws.amazon.com/codecommit/latest/userguide/welcome.html>
-
-    </details>
-
-36. A company is considering migrating its applications to AWS. The company wants to compare the cost of running the workload on-premises to running the equivalent workload on the AWS platform. <br/>Which tool can be used to perform this comparison?
-    - A. AWS Simple Monthly Calculator
-    - B. AWS Total Cost of Ownership (TCO) Calculator
-    - C. AWS Billing and Cost Management console
-    - D. Cost Explorer
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - TCO calculator compare the cost of running your applications in an on-premises or colocation environment to AWS.
-
-    Reference: <https://awstcocalculator.com>
+    Reference: <https://docs.aws.amazon.com/codecommit/latest/userguide/welcome.html></br>
+    AWS CodeCommit은 Git을 기반으로 하며, 안전하고 확장 가능한 완전 관리형 소스 제어 서비스입니다.
 
     </details>
 
@@ -656,43 +222,8 @@ layout: exam
     - All data is encrypted with 256-bit encryption and you can manage your encryption keys with AWS Key Management Service (AWS KMS).
     - Snowmobile includes GPS tracking, alarm monitoring, 24/7 video surveillance and an optional escort security vehicle while in transit.
 
-    Reference: <https://aws.amazon.com/about-aws/whats-new/2016/11/move-exabyte-scale-data-sets-with>- aws-snowmobile/
-
-    </details>
-
-38. Which of the following BEST describe the AWS pricing model? (Choose two.)
-    - A. Fixed-term
-    - B. Pay-as-you-go
-    - C. Colocation
-    - D. Planned
-    - E. Variable cost
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BE
-
-    Explanation: <https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf>
-
-    </details>
-
-39. Which load balancer types are available with Elastic Load Balancing (ELB)? (Choose two.)
-    - A. Public load balancers with AWS Application Auto Scaling capabilities
-    - B. F5 Big-IP and Citrix NetScaler load balancers
-    - C. Classic Load Balancers
-    - D. Cross-zone load balancers with public and private IPs
-    - E. Application Load Balancers
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: CE
-
-    Explanation:
-    - Elastic Load Balancing supports the following types of load balancers: Application Load Balancers, Network Load Balancers, and Classic Load Balancers.
-    - Amazon ECS services can use either type of load balancer.
-    - Application Load Balancers are used to route HTTP/HTTPS (or Layer 7) traffic.
-    - Network Load Balancers and Classic Load Balancers are used to route TCP (or Layer 4) traffic.
-
-    Reference: <https://docs.aws.amazon.com/AmazonECS/latest/developerguide/load-balancer-types.html>
+    Reference: <https://aws.amazon.com/about-aws/whats-new/2016/11/move-exabyte-scale-data-sets-with>- aws-snowmobile/</br>
+    AWS Snowmobile은 45피트 길이의 견고한 선적 컨테이너 트럭을 사용하여 엑사바이트 단위의 매우 방대한 데이터를 물리적으로 AWS로 전송하는 서비스입니다.
 
     </details>
 
@@ -712,76 +243,8 @@ layout: exam
     - AWS pricing is similar to how you pay for utilities like water and electricity.
     - You only pay for the services you consume, and once you stop using them, there are no additional costs or termination fees.
 
-    Reference: <https://aws.amazon.com/pricing/>
-
-    </details>
-
-41. Which solution provides the FASTEST application response times to frequently accessed data to users in multiple AWS Regions?
-    - A. AWS CloudTrail across multiple Availability Zones
-    - B. Amazon CloudFront to edge locations
-    - C. AWS CloudFormation in multiple regions
-    - D. A virtual private gateway over AWS Direct Connect
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - You can deliver content and decrease end-user latency of your web application using Amazon CloudFront.
-    - CloudFront speeds up content delivery by leveraging its global network of data centers, known as edge locations, to reduce delivery time by caching your content close to your end users.
-    - CloudFront fetches your content from an origin, such as an Amazon S3 bucket, an Amazon EC2 instance, an Amazon Elastic Load
-    Balancing load balancer or your own web server, when it's not already in an edge location.
-    - CloudFront can be used to deliver your entire website or application, including dynamic, static, streaming, and interactive content.
-
-    Reference: <https://aws.amazon.com/getting-started/tutorials/deliver-content-faster/>
-
-    </details>
-
-42. Which AWS service provides a self-service portal for on-demand access to AWS compliance reports?
-    - A. AWS Config
-    - B. AWS Certificate Manager
-    - C. Amazon Inspector
-    - D. AWS Artifact
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - AWS Artifact is your go-to, central resource for compliance-related information that matters to you.
-    - It provides on-demand access to AWS' security and compliance reports and select online agreements.
-    - Reports available in AWS Artifact include our Service Organization Control (SOC) reports, Payment Card Industry (PCI) reports, and certifications from accreditation bodies across geographies and compliance verticals that validate the implementation and operating effectiveness of AWS security controls.
-    - Agreements available in AWS Artifact include the Business Associate Addendum (BAA) and the Nondisclosure Agreement (NDA).
-
-    Reference: <https://aws.amazon.com/artifact/>
-
-    </details>
-
-43. Which of the following AWS services can be used to run a self-managed database?
-    - A. Amazon Route 53
-    - B. AWS X-Ray
-    - C. AWS Snowmobile
-    - D. Amazon Elastic Compute Cloud (Amazon EC2)
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://severalnines.com/news/aws-users-prefer-self-managed-databases>
-
-    </details>
-
-44. What exclusive benefit is provided to users with Enterprise Support?
-    - A. Access to a Technical Project Manager
-    - B. Access to a Technical Account Manager
-    - C. Access to a Cloud Support Engineer
-    - D. Access to a Solutions Architect
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/premiumsupport/plans/enterprise/>
+    Reference: <https://aws.amazon.com/pricing/></br>
+    장기적인 계약 없이 실제로 사용한 만큼만 비용을 지불할 수 있다는 것이 AWS 클라우드의 주요 재정적 이점 중 하나입니다.
 
     </details>
 
@@ -798,7 +261,8 @@ layout: exam
     Explanation:
     - An AWS Region is a geographic location where AWS provides multiple, physically separated and isolated Availability Zones which are connected with low latency, high throughput, and highly redundant networking.
 
-    Reference: <https://aws.amazon.com/s3/faqs/>
+    Reference: <https://aws.amazon.com/s3/faqs/></br>
+    리전은 지리적으로 완전히 분리되어 있으므로, 한 리전 전체에 영향을 미치는 대규모 자연재해에도 서비스의 연속성을 유지할 수 있습니다.
 
     </details>
 
@@ -817,38 +281,8 @@ layout: exam
     - Manage your cost further by leveraging different options such as S3 CloudFront for caching & offloading to reduce cost of EC2 computing, as well as Elastic Load Balancing which prepares you for massive scale, high reliability and uninterrupted growth.
     - Another way to keep costs down is to use AWS Identity and Access Management solutions (IAM) to manage governance of your cost drivers effectively and by the right teams.
 
-    Reference: <https://aws.amazon.com/startups/lean/>
-
-    </details>
-
-47. A startup is working on a new application that needs to go to market quickly. The application requirements may need to be adjusted in the near future. <br/> Which of the following is a characteristic of the AWS Cloud that would meet this specific need?
-    - A. Elasticity
-    - B. Reliability
-    - C. Performance
-    - D. Agility
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation:
-    - Agile is a time boxed, iterative approach to software delivery that builds software incrementally from the start of the project, instead of trying to deliver it all at once near the end.
-
-    Reference: <http://www.agilenutshell.com>
-
-    </details>
-
-48. Which AWS Support plan provides a full set of AWS Trusted Advisor checks?
-    - A. Business and Developer Support
-    - B. Business and Basic Support
-    - C. Enterprise and Developer Support
-    - D. Enterprise and Business Support
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://aws.amazon.com/premiumsupport/plans/>
+    Reference: <https://aws.amazon.com/startups/lean/></br>
+    온디맨드 리소스는 필요할 때만 사용하고 사용하지 않을 때는 종료하여 비용을 절감하며, 급격한 성장 시에도 유연하게 대처할 수 있게 합니다.
 
     </details>
 
@@ -863,24 +297,6 @@ layout: exam
 
     Correct Answer: AD
 
-    Explanation: <https://aws.amazon.com/shield/>
-
+    Explanation: <https://aws.amazon.com/shield/></br>
+    AWS WAF는 웹 트래픽을 필터링하여 DDoS를 완화하고, CloudFront는 엣지 로케이션의 규모를 활용하여 네트워크 레이어의 DDoS 공격을 자동으로 흡수합니다.
     </details>
-
-50. When building a cloud Total Cost of Ownership (TCO) model, which cost elements should be considered for workloads running on AWS? (Choose three.)
-    - A. Compute costs
-    - B. Facilities costs
-    - C. Storage costs
-    - D. Data transfer costs
-    - E. Network infrastructure costs
-    - F. Hardware lifecycle costs
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: ACD
-
-    Explanation:
-    <https://aws.amazon.com/blogs/aws/the-new-aws-tco-calculator/>
-
-    </details>
-
