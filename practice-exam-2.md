@@ -4,56 +4,6 @@ layout: exam
 
 # Practice Exam 2
 
-1. A global company with a large number of AWS accounts is seeking a way in which they can centrally manage billing and security policies across all accounts. Which AWS Service will assist them in meeting these goals?
-    - A. AWS Organizations.
-    - B. AWS Trusted Advisor.
-    - C. IAM User Groups.
-    - D. AWS Config.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-2. Which service provides object-level storage in AWS?
-    - A. Amazon EBS.
-    - B. Amazon Instance Store.
-    - C. Amazon EFS.
-    - D. Amazon S3.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-3. A company is concerned that they are spending money on underutilized compute resources in AWS. Which AWS feature will help ensure that their applications are automatically adding/removing EC2 compute capacity to closely match the required demand?
-    - A. AWS Elastic Load Balancer.
-    - B. AWS Budgets.
-    - C. AWS Auto Scaling.
-    - D. AWS Cost Explorer.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-4. Which S3 storage class is best for data with unpredictable access patterns?
-    - A. Amazon S3 Intelligent-Tiering.
-    - B. Amazon S3 Glacier Flexible Retrieval.
-    - C. Amazon S3 Standard.
-    - D. Amazon S3 Standard-Infrequent Access.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-5. What is the AWS database service that allows you to upload data structured in key-value format?
-    - A. Amazon DynamoDB.
-    - B. Amazon Aurora.
-    - C. Amazon Redshift.
-    - D. Amazon RDS.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
 6. Which of the following is NOT correct regarding Amazon EC2 On-demand instances?
     - A. You have to pay a start-up fee when launching a new instance for the first time.
     - B. The on-demand instances follow the AWS pay-as-you-go pricing model.
@@ -61,7 +11,8 @@ layout: exam
     - D. When using on-demand Linux instances, you are charged per second based on an hourly rate.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+      Correct answer: A</br>
+      온디맨드 인스턴스는 시작 비용이 없으며, 사용한 만큼만 지불합니다.
     </details>
 
 7. A company has moved to AWS recently. Which of the following AWS Services will help ensure that they have the proper security settings? (Choose TWO)
@@ -72,17 +23,8 @@ layout: exam
     - E. Concierge Support Team.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, B
-    </details>
-
-8. What is the AWS feature that provides an additional level of security above the default authentication mechanism of usernames and passwords?
-    - A. Encrypted keys.
-    - B. Email verification.
-    - C. AWS KMS.
-    - D. AWS MFA.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: A, B</br>
+      AWS Trusted Advisor는 모범 사례에 따른 보안 구성 검사를 제공하며, Amazon Inspector는 EC2 인스턴스에 배포된 애플리케이션의 보안 및 규정 준수를 자동으로 평가합니다.
     </details>
 
 9. A company is introducing a new product to their customers, and is expecting a surge in traffic to their web application. As part of their Enterprise Support plan, which of the following provides the company with architectural and scaling guidance?
@@ -92,27 +34,8 @@ layout: exam
     - D. AWS Support Concierge Service.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-10. You work as an on-premises MySQL DBA. The work of database configuration, backups, patching, and DR can be time-consuming and repetitive. Your company has decided to migrate to the AWS Cloud. Which of the following can help save time on database maintenance so you can focus on data architecture and performance?
-    - A. Amazon RDS.
-    - B. Amazon Redshift.
-    - C. Amazon DynamoDB.
-    - D. Amazon CloudWatch.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-11. Which of the below is a best-practice when designing solutions on AWS?
-    - A. Invest heavily in architecting your environment, as it is not easy to change your design later.
-    - B. Use AWS reservations to reduce costs when testing your production environment.
-    - C. Automate wherever possible to make architectural (© ) experimentation easier.
-    - D. Provision a large compute capacity to handle any spikes in load
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: C</br>
+      **Infrastructure Event Management (IEM)**는 Enterprise 및 Enterprise On-Ramp Support 플랜의 일부로 제공되며, 출시, 마이그레이션 등 주요 이벤트 전에 AWS 엔지니어가 아키텍처 및 운영 준비 상태를 검토하고 지침을 제공합니다.
     </details>
 
 12. According to the AWS Acceptable Use Policy, which of the following statements is true regarding penetration testing of EC2 instances?
@@ -122,17 +45,8 @@ layout: exam
     - D. The AWS customers are only allowed to perform penetration testing on services managed by AWS.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-13. Which service is used to ensure that messages between software components are not lost if one or more components fail?
-    - A. Amazon SQS.
-    - B. Amazon SES.
-    - C. AWS Direct Connect.
-    - D. Amazon Connect.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+      Correct answer: C</br>
+       EC2 인스턴스, RDS, CloudFront 등 특정 서비스에 대한 침투 테스트는 AWS의 사전 승인 없이 고객이 자체적으로 수행할 수 있습니다. (단, AWS가 명시적으로 허용하지 않는 다른 서비스에 대한 테스트는 여전히 금지됩니다.)
     </details>
 
 14. The principle “design for failure and nothing will fail” is very important when designing your AWS Cloud architecture. Which of the following would help adhere to this principle? (Choose TWO)
@@ -143,17 +57,8 @@ layout: exam
     - E. Vertical Scaling.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, C
-    </details>
-
-15. What is the AWS service that provides a virtual network dedicated to your AWS account?
-    - A. AWS VPN.
-    - B. AWS Subnets.
-    - C. AWS Dedicated Hosts.
-    - D. Amazon VPC.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: B, C</br>
+      **Elastic Load Balancing (ELB)**은 트래픽을 여러 인스턴스/AZ에 분산하고, 비정상 인스턴스로의 트래픽을 자동으로 라우팅하지 않아 내결함성을 제공합니다.
     </details>
 
 16. According to the AWS Shared responsibility model, which of the following are the responsibility of the customer? (Choose TWO)
@@ -164,28 +69,8 @@ layout: exam
     - E. Patching applications installed on Amazon EC2.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, E
-    </details>
-
-17. Which of the following AWS services can be used as a compute resource? (Choose TWO)
-    - A. Amazon VPC.
-    - B. Amazon CloudWatch.
-    - C. Amazon S3.
-    - D. Amazon EC2.
-    - E. AWS Lambda.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D, E
-    </details>
-
-18. Your company is designing a new application that will store and retrieve photos and videos. Which of the following services should you recommend as the underlying storage mechanism?
-    - A. Amazon EBS.
-    - B. Amazon SQS.
-    - C. Amazon S3.
-    - D. Amazon Instance store.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: B, E</br>
+      고객은 '클라우드 내의 보안'을 책임지며, 여기에는 고객 데이터의 암호화(B)와 EC2 인스턴스에 설치된 운영체제 및 애플리케이션의 패치 관리(E)가 포함됩니다.
     </details>
 
 19. Which of the following is equivalent to a user name and password and is used to authenticate your programmatic access to AWS services and APIs?
@@ -195,7 +80,8 @@ layout: exam
     - D. MFA.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: C</br>
+      액세스 키는 AWS CLI, SDK 및 API 호출에 사용되는 보안 자격 증명으로, 액세스 키 ID(사용자 이름)와 보안 액세스 키(암호)로 구성됩니다.
     </details>
 
 20. What does Amazon ElastiCache provide?
@@ -205,17 +91,8 @@ layout: exam
     - D. A domain name system in the cloud.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-21. What is the AWS service that enables you to manage all of your AWS accounts from a single master account?
-    - A. AWS WAF.
-    - B. AWS Trusted Advisor.
-    - C. AWS Organizations.
-    - D. Amazon Config.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: A</br>
+      Amazon ElastiCache는 관리형 인메모리 캐싱 서비스로, 데이터베이스 및 애플리케이션 계층의 지연 시간을 줄여 성능을 향상시킵니다.
     </details>
 
 22. Which of the following EC2 instance purchasing options supports the Bring Your Own License (BYOL) model for almost every BYOL scenario?
@@ -225,17 +102,8 @@ layout: exam
     - D. Reserved Instances.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-23. Which of the following is one of the benefits of moving infrastructure from an on-premises data center to AWS?
-    - A. Free support for all enterprise customers.
-    - B. Automatic data protection.
-    - C. Reduced Capital Expenditure (CapEx).
-    - D. AWS holds responsibility for managing customer applications.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: B</br>
+      Dedicated Hosts는 고객의 계정에 전용으로 할당된 물리적 서버로, 기존 서버별/소켓별 라이선스를 가져와 사용할 수 있는 통제권을 제공합니다.
     </details>
 
 24. Which of the following are important design principles you should adopt when designing systems on AWS? (Choose TWO)
@@ -246,47 +114,8 @@ layout: exam
     - E. Remove single points of failure.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D, E
-    </details>
-
-25. Which AWS Service can be used to establish a dedicated, private network connection between AWS and your datacenter?
-    - A. AWS Direct Connect.
-    - B. Amazon CloudFront.
-    - C. AWS Snowball.
-    - D. Amazon Route 53.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-26. You are working on two projects that require completely different network configurations. Which AWS service or feature will allow you to isolate resources and network configurations?
-    - A. Internet gateways.
-    - B. Virtual Private Cloud.
-    - C. Security Groups.
-    - D. Amazon CloudFront.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-27. Which of the following services can help protect your web applications from SQL injection and other vulnerabilities in your application code?
-    - A. Amazon Cognito.
-    - B. AWS IAM.
-    - C. Amazon Aurora.
-    - D. AWS WAF.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-28. An organization needs to analyze and process a large number of data sets. Which AWS service should they use?
-    - A. Amazon EMR.
-    - B. Amazon MQ.
-    - C. Amazon SNS.
-    - D. Amazon SQS.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+      Correct answer: D, E</br>
+      AWS의 핵심 설계 원칙은 **단일 장애 지점을 제거(고가용성)**하고, 자동화를 통해 변경 및 실험을 용이하게 하는 것입니다.
     </details>
 
 29. Based on the AWS Shared Responsibility Model, which of the following are the sole responsibility of AWS? (Choose TWO)
@@ -298,6 +127,8 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C, E
+      </br>
+      AWS는 '클라우드의 보안'을 책임지며, 여기에는 컴퓨팅, 스토리지, 데이터베이스 및 네트워킹을 실행하는 서비스의 기본 인프라(하드웨어, 소프트웨어, 네트워킹 및 시설)가 포함됩니다. 하드웨어 유지 관리 및 하이퍼바이저는 AWS의 책임입니다.
     </details>
 
 30. What is the AWS service that provides you the highest level of control over the underlying virtual infrastructure?
@@ -307,27 +138,8 @@ layout: exam
     - D. Amazon RDS.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-31. What are the default security credentials that are required to access the AWS management console for an IAM user account?
-    - A. MFA.
-    - B. Security tokens.
-    - C. A user name and password.
-    - D. Access keys.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-32. In your on-premises environment, you can create as many virtual servers as you need from a single template. What can you use to perform the same in AWS?
-    - A. IAM.
-    - B. An internet gateway.
-    - C. EBS Snapshot.
-    - D. AMI.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+      Correct answer: C</br>
+      Amazon EC2는 IaaS(Infrastructure as a Service)로, 고객에게 운영 체제 및 애플리케이션 소프트웨어 설치 및 패치 적용을 포함하여 인스턴스에 대한 가장 높은 수준의 제어를 제공합니다.
     </details>
 
 33. What are two advantages of using Cloud Computing over using traditional data centers? (Choose TWO)
@@ -338,19 +150,10 @@ layout: exam
     - E. Dedicated hosting.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, C
+      Correct answer: B, C</br>
+      클라우드의 주요 이점은 여러 가용 영역과 리전에 걸쳐 분산된 인프라를 활용하여 단일 장애 지점(SPOFs)을 제거함으로써 고가용성을 달성하는 것입니다.
     </details>
 
-34. Which of the following aspects of security are managed by AWS? (Choose TWO)
-    - A. Encryption of EBS volumes.
-    - B. VPC security.
-    - C. Access permissions.
-    - D. Hardware patching.
-    - E. Securing global physical infrastructure.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D, E
-    </details>
 
 35. Which statement best describes the operational excellence pillar of the AWS Well-Architected Framework?
     - A. The ability of a system to recover gracefully from failure.
@@ -359,38 +162,8 @@ layout: exam
     - D. The ability to manage datacenter operations more efficiently.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-36. AWS has created a large number of Edge Locations as part of its Global Infrastructure. Which of the following is NOT a benefit of using Edge Locations?
-    - A. Edge locations are used by CloudFront to cache the most recent responses.
-    - B. Edge locations are used by CloudFront to improve your end users’ experience when uploading files.
-    - C. Edge locations are used by CloudFront to distribute traffic across multiple instances to reduce latency.
-    - D. Edge locations are used by CloudFront to distribute content to global users with low latency.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-37. What are the change management tools that helps AWS customers audit and monitor all resource changes in their AWS environment? (Choose TWO)
-    - A. AWS CloudTrail.
-    - B. Amazon Comprehend.
-    - C. AWS Transit Gateway.
-    - D. AWS X-Ray.
-    - E. AWS Config.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, E
-    </details>
-
-38. Which of the following services allows you to run containerized applications on a cluster of EC2 instances?
-    - A. Amazon ECS.
-    - B. AWS Data Pipeline.
-    - C. AWS Cloud9.
-    - D. AWS Personal Health Dashboard.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+      Correct answer: C</br>
+      운영 우수성(Operational Excellence) 기둥은 코드를 통한 인프라 운영, 문서화, 모니터링, 변경 사항에 대한 응답을 포함하여 시스템 운영 및 지원 프로세스를 개선하는 데 중점을 둡니다.
     </details>
 
 39. Which of the following services will help businesses ensure compliance in AWS?
@@ -400,17 +173,8 @@ layout: exam
     - D. CloudTrail.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-40. Which of the following procedures will help reduce your Amazon S3 costs?
-    - A. Use the Import/Export feature to move old files automatically to Amazon Glacier.
-    - B. Use the right combination of storage classes based on different use cases.
-    - C. Pick the right Availability Zone for your S3 bucket.
-    - D. Move all the data stored in S3 standard to EBS.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+      Correct answer: D</br>
+      AWS CloudTrail은 AWS 계정의 거버넌스, 규정 준수 및 감사 요구 사항을 지원하며, 모든 API 활동을 기록하여 누가, 언제, 어디서 무엇을 했는지 파악할 수 있도록 합니다.
     </details>
 
 41. What are the AWS services/features that can help you maintain a highly available and fault-tolerant architecture in AWS? (Choose TWO)
@@ -421,37 +185,8 @@ layout: exam
     - E. Network ACLs.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, C
-    </details>
-
-42. Which of the following activities may help reduce your AWS monthly costs?
-    - A. Enabling Amazon EC2 Auto Scaling for all of your workloads.
-    - B. Using the AWS Network Load Balancer (NLB) to load balance the incoming HTTP requests.
-    - C. Removing all of your Cost Allocation Tags.
-    - D. Deploying your AWS resources across multiple Availability Zones.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-43. What is the AWS service/feature that takes advantage of Amazon CloudFront’s globally distributed edge locations to transfer files to S3 with higher upload speeds?
-    - A. S3 Transfer Acceleration.
-    - B. AWS WAF.
-    - C. AWS Snowmobile.
-    - D. AWS Snowball.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-44. Which of the following AWS security features is associated with an EC2 instance and functions to filter incoming traffic requests?
-    - A. AWS X-Ray.
-    - B. Network ACL.
-    - C. Security Groups.
-    - D. VPC Flow logs.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: B, C</br>
+      ELB는 트래픽을 정상 인스턴스로 분산하고, Auto Scaling은 비정상 인스턴스를 자동으로 교체하고 수요에 따라 용량을 조정하여 고가용성과 내결함성을 제공합니다.
     </details>
 
 45. Which AWS services can be used to improve the performance of a global application and reduce latency for its users? (Choose TWO)
@@ -462,28 +197,8 @@ layout: exam
     - E. Amazon CloudFront.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, E
-    </details>
-
-46. Using Amazon RDS falls under the shared responsibility model. Which of the following are customer responsibilities? (Choose TWO)
-    - A. Building the relational database schema.
-    - B. Performing backups.
-    - C. Managing the database settings.
-    - D. Patching the database software.
-    - E. Installing the database software.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, C
-    </details>
-
-47. A company has a large amount of structured data stored in their on-premises data center. They are planning to migrate all the data to AWS, what is the most appropriate AWS database option?
-    - A. Amazon DynamoDB.
-    - B. Amazon SNS.
-    - C. Amazon RDS.
-    - D. Amazon ElastiCache.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+      Correct answer: B, E</br>
+      Amazon CloudFront와 AWS Global Accelerator는 모두 AWS의 글로벌 네트워크 및 엣지 로케이션을 활용하여 트래픽을 최종 사용자에게 더 가깝게 라우팅하고 콘텐츠를 캐시하여 글로벌 애플리케이션의 성능을 개선하고 지연 시간을 줄입니다.
     </details>
 
 48. A company has created a solution that helps AWS customers improve their architectures on AWS. Which AWS program may support this company?
@@ -493,25 +208,6 @@ layout: exam
     - D. AWS Professional Services.
 
     <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-49. What is the AWS serverless service that allows you to run your applications without any administrative burden?
-    - A. Amazon LightSail.
-    - B. AWS Lambda.
-    - C. Amazon RDS instances.
-    - D. Amazon EC2 instances.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-50. Jessica is managing an e-commerce web application in AWS. The application is hosted on six EC2 instances. One day, three of the instances crashed; but none of her customers were affected. What has Jessica done correctly in this scenario?
-    - A. She has properly built an elastic system.
-    - B. She has properly built a fault tolerant system.
-    - C. She has properly built an encrypted system.
-    - D. She has properly built a scalable system.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+      Correct answer: A</br>
+      APN 컨설팅 파트너는 고객에게 AWS 워크로드에 대한 컨설팅 및 관리 서비스를 제공하고 고객이 솔루션을 설계하고 구축하는 데 도움을 줍니다. 기술 파트너는 고객에게 판매할 수 있는 소프트웨어 제품을 개발합니다.
     </details>
