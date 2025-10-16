@@ -14,77 +14,8 @@ layout: exam
 
     Correct Answer: C
 
-    Explanation: <https://aws.amazon.com/guardduty/>
-
-    </details>
-
-2. A company wants to try a third-party ecommerce solution before deciding to use it long term. <br/> Which AWS service or tool will support this effort?
-    - A. AWS Marketplace
-    - B. AWS Partner Network (APN)
-    - C. AWS Managed Services
-    - D. AWS Service Catalog
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/about-aws/whats-new/2019/09/aws-marketplace-easier-to-find-solutions-from-aws-console/>
-
-    </details>
-
-3. Which AWS service is a managed NoSQL database?
-    - A. Amazon Redshift
-    - B. Amazon DynamoDB
-    - C. Amazon Aurora
-    - D. Amazon RDS for MariaDB
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/dynamodb/>
-
-    </details>
-
-4. Which AWS service should be used to create a billing alarm?
-    - A. AWS Trusted Advisor
-    - B. AWS CloudTrail
-    - C. Amazon CloudWatch
-    - D. Amazon QuickSight
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html>
-
-    </details>
-
-5. A company is hosting a web application in a Docker container on Amazon EC2. <br/> AWS is responsible for which of the following tasks?
-    - A. Scaling the web application and services developed with Docker
-    - B. Provisioning or scheduling containers to run on clusters and maintain their availability
-    - C. Performing hardware maintenance in the AWS facilities that run the AWS Cloud
-    - D. Managing the guest operating system, including updates and security patches
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/getting-started/tutorials/deploy-docker-containers/>
-
-    </details>
-
-6. Users are reporting latency when connecting to a website with a global customer base. <br/> Which AWS service will improve the customer experience by reducing latency?
-    - A. Amazon CloudFront
-    - B. AWS Direct Connect
-    - C. Amazon EC2 Auto Scaling
-    - D. AWS Transit Gateway
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/getting-started/tutorials/deliver-content-faster/>
+    Explanation: <https://aws.amazon.com/guardduty/></br>
+    Amazon GuardDuty는 AWS 환경에서 악성 활동 및 무단 동작을 지속적으로 모니터링하여 위협을 탐지하는 지능형 위협 탐지 서비스입니다.
 
     </details>
 
@@ -99,22 +30,8 @@ layout: exam
 
     Correct Answer: AD
 
-    Explanation: <https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html>
-
-    </details>
-
-8. Which AWS feature or service can be used to capture information about incoming and outgoing traffic in an AWS VPC infrastructure?
-    - A. AWS Config
-    - B. VPC Flow Logs
-    - C. AWS Trusted Advisor
-    - D. AWS CloudTrail
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    <https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html>
+    Explanation: <https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html></br>
+    IAM 모범 사례는 강력한 비밀번호 정책을 사용하여 자격 증명 보안을 강화하고, 프로그래밍 방식 액세스에 사용되는 액세스 키를 정기적으로 교체하여 잠재적 보안 위험을 최소화하는 것을 포함합니다.
 
     </details>
 
@@ -132,7 +49,8 @@ layout: exam
     - AWS Global Accelerator uses the AWS global network to optimize the path from your users to your applications, improving the performance of your traffic by as much as 60%.
     - AWS Global Accelerator continually monitors the health of your application endpoints and redirects traffic to healthy endpoints in less than 30 seconds.
 
-    Reference: <https://aws.amazon.com/global-accelerator/?blogs-global-accelerator.sort-by=item.additionalFields.createdDate&blogs-global-accelerator.sort-order=desc&aws-global-accelerator-wn.sort-by=item.additionalFields.postDateTime&aws-global-accelerator-wn.sort-order=desc>
+    Reference: <https://aws.amazon.com/global-accelerator/?blogs-global-accelerator.sort-by=item.additionalFields.createdDate&blogs-global-accelerator.sort-order=desc&aws-global-accelerator-wn.sort-by=item.additionalFields.postDateTime&aws-global-accelerator-wn.sort-order=desc></br>
+    AWS Global Accelerator는 AWS 글로벌 네트워크를 사용하여 사용자 성능을 개선하고, 등록된 애플리케이션 엔드포인트의 상태를 지속적으로 모니터링하며, 정상적인 엔드포인트로만 트래픽을 라우팅하여 가용성을 향상시킵니다.
 
     </details>
 
@@ -145,35 +63,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: Ac
-
-    </details>
-
-11. Which service can be used to monitor and receive alerts for AWS account root user AWS Management Console sign-in events?
-    - A. Amazon CloudWatch
-    - B. AWS Config
-    - C. AWS Trusted Advisor
-    - D. AWS IAM
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/blogs/mt/monitor-and-notify-on-aws-account-root-user-activity/>
-
-    </details>
-
-12. Which design principle should be considered when architecting in the AWS Cloud?
-    - A. Think of servers as non-disposable resources
-    - B. Use synchronous integration of services
-    - C. Design loosely coupled components
-    - D. Implement the least permissive rules for security groups
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://www.botmetric.com/blog/aws-cloud-architecture-design-principles/>
+    Correct Answer: Ac</br>
+    안정적인 변경 관리를 위해서는 시스템의 모든 변경 사항을 추적하고 감사할 수 있어야 합니다. AWS Config는 리소스 구성을 기록하고, AWS CloudTrail은 모든 API 활동을 로그로 기록합니다.
 
     </details>
 
@@ -188,19 +79,8 @@ layout: exam
 
     Correct Answer: AD
 
-    Explanation: <https://aws.amazon.com/snowball/>
-
-    </details>
-
-14. A batch workload takes 5 hours to finish on an Amazon EC2 instance. The amount of data to be processed doubles monthly and the processing time is proportional. <br/> What is the best cloud architecture to address this consistently growing demand?
-    - A. Run the application on a bigger EC2 instance size.
-    - B. Switch to an EC2 instance family that better matches batch requirements.
-    - C. Distribute the application across multiple EC2 instances and run the workload in parallel.
-    - D. Run the application on a bare metal EC2 instance.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
+    Explanation: <https://aws.amazon.com/snowball/></br>
+    AWS Snowball은 물리적인 대규모 데이터 전송 서비스이고, AWS DMS는 데이터베이스를 온프레미스에서 AWS로 마이그레이션하는 데 사용됩니다.
 
     </details>
 
@@ -214,33 +94,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_accounts.html>
-
-    </details>
-
-16. The ability to horizontally scale Amazon EC2 instances based on demand is an example of which concept in the AWS Cloud value proposition?
-    - A. Economy of scale
-    - B. Elasticity
-    - C. High availability
-    - D. Agility
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-17. An ecommerce company anticipates a huge increase in web traffic for two very popular upcoming shopping holidays. <br/> Which AWS service or feature can be configured to dynamically adjust resources to meet this change in demand?
-    - A. AWS CloudTrail
-    - B. Amazon EC2 Auto Scaling
-    - C. Amazon Forecast
-    - D. AWS Config
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/autoscaling/>
+    Explanation: <https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_accounts.html></br>
+    AWS Organizations는 여러 AWS 계정을 하나로 통합하고 관리할 수 있도록 해주며, 통합 결제(Consolidated Billing) 기능을 통해 모든 계정의 요금을 한 곳에서 중앙 집중식으로 관리하고 결제할 수 있습니다.
 
     </details>
 
@@ -254,112 +109,8 @@ layout: exam
 
     Correct Answer: C
 
-    Explanation: <https://d1.awsstatic.com/whitepapers/aws-security-whitepaper.pdf>
-
-    </details>
-
-19. Which tool is used to forecast AWS spending?
-    - A. AWS Trusted Advisor
-    - B. AWS Organizations
-    - C. Cost Explorer
-    - D. Amazon Inspector
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-forecast.html>
-
-    </details>
-
-20. A company is running an ecommerce application hosted in Europe. To decrease latency for users who access the website from other parts of the world, the company would like to cache frequently accessed static content closer to the users. <br/> Which AWS service will support these requirements?
-    - A. Amazon ElastiCache
-    - B. Amazon CloudFront
-    - C. Amazon Elastic File System (Amazon EFS)
-    - D. Amazon Elastic Block Store (Amazon EBS)
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation:
-    - Amazon CloudFront employs a global network of edge locations and regional edge caches that cache copies of your content close to your viewers.
-    - Amazon CloudFront ensures that end-user requests are served by the closest edge location.
-    - As a result, viewer requests travel a short distance, improving performance for your viewers.
-    - For files not cached at the edge locations and the regional edge caches, Amazon CloudFront keeps persistent connections with your origin servers so that those files can be fetched from the origin servers as quickly as possible.
-
-    Reference: <https://aws.amazon.com/cloudfront/faqs/>
-
-    </details>
-
-21. Which of the following is a component of the AWS Global Infrastructure?
-    - A. Amazon Alexa
-    - B. AWS Regions
-    - C. Amazon Lightsail
-    - D. AWS Organizations
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/about-aws/global-infrastructure/>
-
-    </details>
-
-22. Which AWS service will help users determine if an application running on an Amazon EC2 instance has sufficient CPU capacity?
-    - A. Amazon CloudWatch
-    - B. AWS Config
-    - C. AWS CloudTrail
-    - D. Amazon Inspector
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/ec2/faqs/>
-
-    </details>
-
-23. Why is it beneficial to use Elastic Load Balancers with applications?
-    - A. They allow for the conversion from Application Load Balancers to Classic Load Balancers.
-    - B. They are capable of handling constant changes in network traffic patterns.
-    - C. They automatically adjust capacity.
-    - D. They are provided at no charge to users.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html>
-
-    </details>
-
-24. Which tasks are the customer's responsibility in the AWS shared responsibility model? (Choose two.)
-    - A. Infrastructure facilities access management
-    - B. Cloud infrastructure hardware lifecycle management
-    - C. Configuration management of user's applications
-    - D. Networking infrastructure protection
-    - E. Security groups configuration
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: CE
-
-    Explanation: <https://cloudacademy.com/blog/aws-shared-responsibility-model-security/>
-
-    </details>
-
-25. IT systems should be designed to reduce interdependencies, so that a change or failure in one component does not cascade to other components. <br/> This is an example of which principle of cloud architecture design?
-    - A. Scalability
-    - B. Loose coupling
-    - C. Automation
-    - D. Automatic scaling
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf>
+    Explanation: <https://d1.awsstatic.com/whitepapers/aws-security-whitepaper.pdf></br>
+    AWS VPN 서비스는 공용 인터넷을 통해 AWS VPC와 온프레미스 네트워크 또는 독립 실행형 클라이언트 간에 **암호화된 터널(VPN)**을 생성하여 안전하게 연결할 수 있게 합니다.
 
     </details>
 
@@ -376,48 +127,8 @@ layout: exam
 
     Explanation:
     - <https://aws.amazon.com/waf/>
-    - <https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html>
-
-    </details>
-
-27. An application runs on multiple Amazon EC2 instances that access a shared file system simultaneously. <br/> Which AWS storage service should be used?
-    - A. Amazon EBS
-    - B. Amazon EFS
-    - C. Amazon S3
-    - D. AWS Artifact
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/efs/>
-
-    </details>
-
-28. A web application is hosted on AWS using an Elastic Load Balancer, multiple Amazon EC2 instances, and Amazon RDS. <br/> Which security measures fall under the responsibility of AWS? (Choose two.)
-    - A. Running a virus scan on EC2 instances
-    - B. Protecting against IP spoofing and packet sniffing
-    - C. Installing the latest security patches on the RDS instance
-    - D. Encrypting communication between the EC2 instances and the Elastic Load Balancer
-    - E. Configuring a security group and a network access control list (NACL) for EC2
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BC
-
-    </details>
-
-29. What is the benefit of elasticity in the AWS Cloud?
-    - A. Ensure web traffic is automatically spread across multiple AWS Regions.
-    - B. Minimize storage costs by automatically archiving log data.
-    - C. Enable AWS to automatically select the most cost-effective services.
-    - D. Automatically adjust the required compute capacity to maintain consistent performance.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://aimconsulting.com/insights/blog/the-elastic-cloud-opportunity/>
+    - <https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html></br>
+    AWS WAF는 웹 애플리케이션 방화벽으로, IP 주소 목록(차단 목록)을 기반으로 웹 요청을 필터링할 수 있습니다. **네트워크 ACL(NACL)**은 서브넷 수준의 방화벽 역할을 하며, 특정 IP 주소/범위에서의 트래픽을 허용하거나 거부하는 규칙을 설정할 수 있습니다.
 
     </details>
 
@@ -429,49 +140,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: C
-
-    </details>
-
-31. A company needs an Amazon S3 bucket that cannot have any public objects due to compliance requirements. <br/> How can this be accomplished?
-    - A. Enable S3 Block Public Access from the AWS Management Console.
-    - B. Hold a team meeting to discuss the importance if only uploading private S3 objects.
-    - C. Require all S3 objects to be manually approved before uploading.
-    - D. Create a service to monitor all S3 uploads and remove any public uploads.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html>
-
-    </details>
-
-32. A Cloud Practitioner identifies a billing issue after examining the AWS Cost and Usage report in the AWS Management Console. <br/> Which action can be taken to resolve this?
-    - A. Open a detailed case related to billing and submit it to AWS Support for help.
-    - B. Upload data describing the issue to a new object in a private Amazon S3 bucket.
-    - C. Create a pricing application and deploy it to a right-sized Amazon EC2 instance for more information.
-    - D. Proceed with creating a new dashboard in Amazon QuickSight.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: < https://docs.aws.amazon.com/awssupport/latest/user/case-management.html>
-
-    </details>
-
-33. What does the AWS Simple Monthly Calculator do?
-    - A. Compares on-premises costs to colocation environments
-    - B. Estimates monthly billing based on projected usage
-    - C. Estimates power consumption at existing data centers
-    - D. Estimates CPU utilization
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/blogs/aws/estimate-your-c/>
+    Correct Answer: C</br>
+    AWS는 수백만 고객의 방대한 총 사용량을 통해 규모의 경제를 달성하여 운영 효율성을 높이고, 그 결과로 발생하는 비용 절감을 고객에게 환원하여 지속적으로 가격을 인하할 수 있습니다.
 
     </details>
 
@@ -485,7 +155,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/>
+    Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/></br>
+    Amazon RDS는 AWS가 운영 체제 패치 및 데이터베이스 패치 적용을 관리하는 관리형 서비스입니다. 따라서 AWS의 책임하에 있지만, AWS 공유 책임 모델에서는 RDS와 같은 관리형 서비스의 경우 AWS가 기본 인프라를 관리하므로, 고객이 아닌 AWS의 책임입니다. (단, 이 문제의 보기가 RDS에 대한 고객의 DB 관리 책임을 강조하는 맥락이라면 B를 선택할 수도 있지만, 게스트 OS 패치는 AWS 책임이 명확합니다. AWS 서비스가 아닌 일반 EC2의 DB 인스턴스라면 고객 책임이 맞습니다. RDS의 경우 AWS의 책임입니다.)
 
     </details>
 
@@ -500,36 +171,8 @@ layout: exam
 
     Correct Answer: AB
 
-    Explanation: <https://aws.amazon.com/autoscaling/faqs/>
-
-    </details>
-
-36. Which of the following are benefits of AWS Global Accelerator? (Choose two.)
-    - A. Reduced cost to run services on AWS
-    - B. Improved availability of applications deployed on AWS
-    - C. Higher durability of data stored on AWS
-    - D. Decreased latency to reach applications deployed on AWS
-    - E. Higher security of data stored on AWS
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BD
-
-    Explanation: <https://aws.amazon.com/global-accelerator/faqs/>
-
-    </details>
-
-37. A user who wants to get help with billing and reactivate a suspended account should submit an account and billing request to:
-    - A. the AWS Support forum
-    - B. AWS Abuse
-    - C. an AWS Solutions Architect
-    - D. AWS Support
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://aws.amazon.com/premiumsupport/knowledge-center/reactivate-suspended-account/>
+    Explanation: <https://aws.amazon.com/autoscaling/faqs/></br>
+    AWS Auto Scaling은 Amazon EC2 인스턴스뿐만 아니라 Amazon DynamoDB의 읽기/쓰기 용량, Amazon ECS 서비스, Amazon Aurora Replicas 등 다양한 AWS 서비스의 용량을 동적으로 관리할 수 있습니다.
 
     </details>
 
@@ -546,92 +189,8 @@ layout: exam
     Explanation:
     - In a traditional computing environment, you provision capacity based on an estimate of a theoretical maximum peak.
     - This can result in periods where expensive resources are sitting idle or occasions of insufficient capacity.
-    - With cloud computing, you can access as much or as little capacity as you need and dynamically scale to meet actual demand, while only paying for what you use.
-
-    </details>
-
-39. Which method helps to optimize costs of users moving to the AWS Cloud?
-    - A. Paying only for what is used
-    - B. Purchasing hardware before it is needed
-    - C. Manually provisioning cloud resources
-    - D. Purchasing for the maximum possible load
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://www.cloudmanagementinsider.com/ways-to-optimize-aws-cost/>
-
-    </details>
-
-40. Under the AWS shared responsibility model, which of the following is a customer responsibility?
-    - A. Installing security patches for the Xen and KVM hypervisors
-    - B. Installing operating system patches for Amazon DynamoDB
-    - C. Installing operating system security patches for Amazon EC2 database instances
-    - D. Installing operating system security patches for Amazon RDS database instances
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/>
-
-    </details>
-
-41. The AWS Cost Management tools give users the ability to do which of the following? (Choose two.)
-    - A. Terminate all AWS resources automatically if budget thresholds are exceeded.
-    - B. Break down AWS costs by day, service, and linked AWS account.
-    - C. Create budgets and receive notifications if current of forecasted usage exceeds the budgets.
-    - D. Switch automatically to Reserved Instances or Spot Instances, whichever is most cost-effective.
-    - E. Move data stored in Amazon S3 to a more cost-effective storage class.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BC
-
-    </details>
-
-42. Under the AWS shared responsibility model, the security and patching of the guest operating system is the responsibility of:
-    - A. AWS Support
-    - B. the customer
-    - C. AWS Systems Manager
-    - D. AWS Config
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/>
-
-    </details>
-
-43. Which AWS service makes it easy to create and manage AWS users and groups, and provide them with secure access to AWS resources at no charge?
-    - A. AWS Direct Connect
-    - B. Amazon Connect
-    - C. AWS Identity and Access Management (IAM)
-    - D. AWS Firewall Manager
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation:
-    - <https://docs.aws.amazon.com/IAM/latest/UserGuide/console_controlling-access.html>
-    - <https://aws.amazon.com/iam/>
-
-    </details>
-
-44. Which AWS service provides on-demand of AWS security and compliance documentation?
-    - A. AWS Directory Service
-    - B. AWS Artifact
-    - C. AWS Trusted Advisor
-    - D. Amazon Inspector
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/artifact/#:~:text=AWS%20Artifact%20is%20your%20go,reports%20and%20select%20online%20agreements>.
+    - With cloud computing, you can access as much or as little capacity as you need and dynamically scale to meet actual demand, while only paying for what you use.</br>
+    해설: 탄력성과 민첩성의 핵심은 수요에 맞춰 IT 리소스를 동적으로 확장/축소하는 능력입니다. 과거의 최대치를 예측하여 선제적으로 프로비저닝하는 것은 온프레미스 방식에 가깝습니다.
 
     </details>
 
@@ -645,84 +204,7 @@ layout: exam
 
     Correct Answer: A
 
-    Explanation: <https://aws.amazon.com/polly/#:~:text=Amazon%20Polly%20is%20a%20service,synthesize%20natural%20sounding%20human%20speech>.
+    Explanation: <https://aws.amazon.com/polly/#:~:text=Amazon%20Polly%20is%20a%20service,synthesize%20natural%20sounding%20human%20speech>.</br>
+    Amazon Polly는 딥러닝 기술을 사용하여 텍스트를 실제 사람의 음성과 유사하게 합성하는 텍스트-음성 변환(Text-to-Speech) 서비스입니다.
 
     </details>
-
-46. What is one of the core principles to follow when designing a highly available application in the AWS Cloud?
-    - A. Design using a serverless architecture
-    - B. Assume that all components within an application can fail
-    - C. Design AWS Auto Scaling into every application
-    - D. Design all components using open-source code
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-47. A user needs to generate a report that outlines the status of key security checks in an AWS account. The report must include:
-    <br/> (The status of Amazon S3 bucket permissions, Whether multi-factor authentication is enabled for the AWS account root user, If any security groups are configured to allow unrestricted access.) <br/> Where can all this information be found in one location?
-    - A. Amazon QuickSight dashboard
-    - B. AWS CloudTrail trails
-    - C. AWS Trusted Advisor report
-    - D. IAM credential report
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation:
-    <https://aws.amazon.com/premiumsupport/technology/trusted-advisor/best-practice-checklist/> #Security
-
-    </details>
-
-48. Which Amazon EC2 pricing model should be used to comply with per-core software license requirements?
-    - A. Dedicated Hosts
-    - B. On-Demand Instances
-    - C. Spot Instances
-    - D. Reserved Instances
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/ec2/dedicated-hosts/pricing/>
-
-    </details>
-
-49. Which of the AWS global infrastructure is used to cache copies of content for faster delivery to users across the globe?
-    - A. AWS Regions
-    - B. Availability Zones
-    - C. Edge locations
-    - D. Data centers
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation:
-    - When your web traffic is geo-dispersed, it's not always feasible and certainly not cost effective to replicate your entire infrastructure across the globe.
-    - A CDN provides you the ability to utilize its global network of edge locations to deliver a cached copy of web content such as videos, webpages, images and so on to your customers.
-    - To reduce response time, the CDN utilizes the nearest edge location to the customer or originating request location in order to reduce the response time.
-    - Throughput is dramatically increased given that the web assets are delivered from cache.
-    - For dynamic data, many CDNs can be configured to retrieve data from the origin servers.
-
-    Reference: <https://aws.amazon.com/caching/>
-
-    </details>
-
-50. Using AWS Config to record, audit, and evaluate changes to AWS resources to enable traceability is an example of which AWS Well-Architected Framework pillar?
-    - A. Security
-    - B. Operational excellence
-    - C. Performance efficiency
-    - D. Cost optimization
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf>
-
-    </details>
-
