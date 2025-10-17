@@ -14,21 +14,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SQLtoNoSQL.html>
-
-    </details>
-
-2. A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas.<br/> Which of the following meets these requirements?
-    - A. AWS Accounts
-    - B. AWS Regions
-    - C. Availability Zones
-    - D. Edge locations
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://www.botmetric.com/blog/having-a-disaster-recovery-plan-is-pivotal-the-dos-and-donts-on-aws-cloud/>
+    Explanation: <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SQLtoNoSQL.html></br>
+    Amazon DynamoDB는 완전 관리형, 서버리스 NoSQL 데이터베이스 서비스입니다. 하드웨어 프로비저닝, 설정, 패치, 확장을 포함한 모든 관리 작업을 AWS가 처리하므로 관리 부담 없이 비관계형 데이터베이스를 배포하는 데 가장 적합합니다.
 
     </details>
 
@@ -43,64 +30,8 @@ layout: exam
 
     Correct Answer: DE
 
-    Explanation: <https://aws.amazon.com/organizations/>
-
-    </details>
-
-4. Which AWS service is used to automate configuration management using Chef and Puppet?
-    - A. AWS Config
-    - B. AWS OpsWorks
-    - C. AWS CloudFormation
-    - D. AWS Systems Manager
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/opsworks/>
-
-    </details>
-
-5. Which tool is best suited for combining the billing of AWS accounts that were previously independent from one another?
-    - A. Detailed billing report
-    - B. Consolidated billing
-    - C. AWS Cost and Usage report
-    - D. Cost allocation report
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html>
-
-    </details>
-
-6. The AWS Total Cost of Ownership (TCO) Calculator is used to:
-    - A. receive reports that break down AWS Cloud compute costs by duration, resource, or tags
-    - B. estimate savings when comparing the AWS Cloud to an on-premises environment
-    - C. estimate a monthly bill for the AWS Cloud resources that will be used
-    - D. enable billing alerts to monitor actual AWS costs compared to estimated costs
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/tco-calculator/>
-
-    </details>
-
-7. Which AWS services can be used to provide network connectivity between an on-premises network and a VPC? (Choose two.)
-    - A. Amazon Route 53
-    - B. AWS Direct Connect
-    - C. AWS Data Pipeline
-    - D. AWS VPN
-    - E. Amazon Connect
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BD
-
-    Explanation: <https://aws.amazon.com/directconnect/faqs/>
+    Explanation: <https://aws.amazon.com/organizations/></br>
+    AWS Organizations는 다중 계정 환경을 중앙에서 관리하고 거버넌스를 적용하는 서비스입니다. 주요 이점으로는 여러 계정의 비용을 합치는 통합 결제와 **서비스 제어 정책(SCP)**을 사용하여 계정 전체의 권한을 제어하는 거버넌스 시행이 있습니다.
 
     </details>
 
@@ -115,35 +46,8 @@ layout: exam
 
     Correct Answer: AC
 
-    Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/>
-
-    </details>
-
-9. What is the MINIMUM AWS Support plan level that will provide users with access to the AWS Support API?
-    - A. Developer
-    - B. Enterprise
-    - C. Business
-    - D. Basic
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/premiumsupport/plans/>
-
-    </details>
-
-10. A company has deployed several relational databases on Amazon EC2 instances. Every month, the database software vendor releases new security patches that need to be applied to the databases. <br/> What is the MOST efficient way to apply the security patches?
-    - A. Connect to each database instance on a monthly basis, and download and apply the necessary security patches from the vendor.
-    - B. Enable automatic patching for the instances using the Amazon RDS console.
-    - C. In AWS Config, configure a rule for the instances and the required patch level.
-    - D. Use AWS Systems Manager to automate database patching according to a schedule.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://aws.amazon.com/rds/faqs/>
+    Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/></br>
+    고객은 클라우드 내의 보안을 책임집니다. 이는 데이터 암호화(A)와 보안 그룹 또는 네트워크 ACL과 같은 네트워크 트래픽 제어 구성(C)을 포함합니다. (B, D, E는 AWS의 책임입니다.)
 
     </details>
 
@@ -157,33 +61,8 @@ layout: exam
 
     Correct Answer: C
 
-    Explanation: <https://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/>
-
-    </details>
-
-12. A company has an application with users in both Australia and Brazil. All the company infrastructure is currently provisioned in the Asia Pacific (Sydney) Region in Australia, and Brazilian users are experiencing high latency. <br/> What should the company do to reduce latency?
-    - A. Implement AWS Direct Connect for users in Brazil
-    - B. Provision resources in the South America (São Paulo) Region in Brazil.
-    - C. Use AWS Transit Gateway to quickly route users from Brazil to the application
-    - D. Launch additional Amazon EC2 instances in Sydney to handle the demand
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/transit-gateway/>
-
-    </details>
-
-13. An Amazon EC2 instance runs only when needed yet must remain active for the duration of the process. <br/> What is the most appropriate purchasing option?
-    - A. Dedicated Instances
-    - B. Spot Instances
-    - C. On-Demand Instances
-    - D. Reserved Instances
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
+    Explanation: <https://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/></br>
+    단일 지리적 영역 내에서 최고의 가용성과 내결함성을 얻으려면 리소스가 **여러 가용 영역(AZ)**에 분산되어야 합니다. AZ는 독립적인 오류 도메인이므로 단일 데이터 센터 오류로부터 보호합니다.
 
     </details>
 
@@ -197,7 +76,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard/>
+    Explanation: <https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard/></br>
+    AWS Personal Health Dashboard는 사용자 계정에 특화된 AWS 서비스의 상태와 예정된 유지 관리, 리소스에 영향을 미치는 진행 중인 이벤트를 알려주는 개인화된 알림판입니다.
 
     </details>
 
@@ -211,7 +91,8 @@ layout: exam
 
     Correct Answer: D
 
-    Explanation: <https://aws.amazon.com/storagegateway/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc>
+    Explanation: <https://aws.amazon.com/storagegateway/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc></br>
+    AWS Storage Gateway는 온프레미스 소프트웨어 어플라이언스를 AWS 클라우드 스토리지에 연결하는 하이브리드 스토리지 서비스입니다. 이를 통해 사내 애플리케이션은 클라우드 스토리지(Amazon S3, Amazon EBS)를 마치 로컬 스토리지처럼 사용할 수 있습니다.
 
     </details>
 
@@ -225,7 +106,8 @@ layout: exam
 
     Correct Answer: C
 
-    Explanation: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html>
+    Explanation: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html></br>
+    **보안 그룹(Security Groups)**은 Amazon EC2 인스턴스에 대한 인스턴스 수준의 가상 방화벽 역할을 합니다. 인스턴스에 들어오고 나가는 트래픽을 허용 또는 거부하는 규칙을 정의하여 트래픽을 제어합니다. (반면, 네트워크 ACL은 서브넷 수준의 방화벽 역할을 합니다.)
 
     </details>
 
@@ -239,21 +121,8 @@ layout: exam
 
     Correct Answer: D
 
-    Explanation: <https://d1.awsstatic.com/whitepapers/building-a-scalable-and-secure-multi-vpc-aws-network-infrastructure.pdf>
-
-    </details>
-
-18. Which AWS Support plan provides access to architectural and operational reviews, as well as 24/7 access to Senior Cloud Support Engineers through email, online chat, and phone?
-    - A. Basic
-    - B. Business
-    - C. Developer
-    - D. Enterprise
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://aws.amazon.com/premiumsupport/plans/enterprise/>
+    Explanation: <https://d1.awsstatic.com/whitepapers/building-a-scalable-and-secure-multi-vpc-aws-network-infrastructure.pdf></br>
+    AWS Transit Gateway는 클라우드 라우터처럼 작동하여 수천 개의 Amazon VPC와 온프레미스 네트워크를 중앙 집중식으로 연결할 수 있게 해줍니다. 특히 여러 리전에 걸쳐 다수의 VPC를 연결하는 경우, 복잡한 피어링 연결 대신 Transit Gateway를 사용하는 것이 가장 효율적이고 확장 가능한 방법입니다.
 
     </details>
 
@@ -267,104 +136,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html>
-
-    </details>
-
-20. What is the best resource for a user to find compliance-related information and reports about AWS?
-    - A. AWS Artifact
-    - B. AWS Marketplace
-    - C. Amazon Inspector
-    - D. AWS Support
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/compliance/faq/>
-
-    </details>
-
-21. Which Amazon S3 storage class is optimized to provide access to data with lower resiliency requirements, but rapid access when needed such as duplicate backups?
-    - A. Amazon S3 Standard
-    - B. Amazon S3 Glacier Deep Archive
-    - C. Amazon S3 One Zone-Infrequent Access
-    - D. Amazon S3 Glacier
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/s3/storage-classes/>
-
-    </details>
-
-22. What is an Availability Zone in AWS?
-    - A. One or more physical data centers
-    - B. A completely isolated geographic location
-    - C. One or more edge locations based around the world
-    - D. A data center location with a single source of power and networking
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/about-aws/global-infrastructure/regions_az/>
-
-    </details>
-
-23. Which AWS services can be used as infrastructure automation tools? (Choose two.)
-    - A. AWS CloudFormation
-    - B. Amazon CloudFront
-    - C. AWS Batch
-    - D. AWS OpsWorks
-    - E. Amazon QuickSight
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AD
-
-    Explanation: <https://blog.newrelic.com/engineering/best-cloud-infrastructure-automation-tools/>
-
-    </details>
-
-24. Which AWS service enables users to create copies of resources across AWS Regions?
-    - A. Amazon ElastiCache
-    - B. AWS CloudFormation
-    - C. AWS CloudTrail
-    - D. AWS Systems Manager
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html>
-
-    </details>
-
-25. A user would like to encrypt data that is received, stored, and managed by AWS CloudTrail. <br/> Which AWS service will provide this capability?
-    - A. AWS Secrets Manager
-    - B. AWS Systems Manager
-    - C. AWS Key Management Service (AWS KMS)
-    - D. AWS Certificate Manager
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://docs.aws.amazon.com/awscloudtrail/latest/userguide/data-protection.html>
-
-    </details>
-
-26. Which AWS Cloud benefit eliminates the need for users to try estimating future infrastructure usage?
-    - A. Easy and fast deployment of applications in multiple Regions around the world
-    - B. Security of the AWS Cloud
-    - C. Elasticity of the AWS Cloud
-    - D. Lower variable costs due to massive economies of scale
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
+    Explanation: <https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html></br>
+    AWS Organizations는 서비스 제어 정책(SCPs)을 사용하여 여러 AWS 계정을 중앙에서 관리하고 통제할 수 있게 해줍니다. SCP는 계정의 사용자 및 역할이 사용할 수 있는 최대 권한을 제한하는 데 사용됩니다.
 
     </details>
 
@@ -379,7 +152,8 @@ layout: exam
 
     Correct Answer: AC
 
-    Explanation: <https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html>
+    Explanation: <https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html></br>
+    AWS CLI, API, SDK 등을 사용하여 AWS에 프로그래밍 방식으로 액세스하려면 액세스 키 ID와 그에 상응하는 보안 액세스 키 쌍이 필요합니다.
 
     </details>
 
@@ -394,7 +168,8 @@ layout: exam
 
     Correct Answer: AD
 
-    Explanation: <https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html>
+    Explanation: <https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html></br>
+    Amazon Lightsail은 가상 서버(EC2 인스턴스)를 포함하는 간소화된 클라우드 플랫폼이므로 컴퓨팅 서비스입니다. AWS Batch는 수천 개의 컴퓨팅 작업을 효율적으로 실행할 수 있도록 일괄 처리 워크로드를 동적으로 프로비저닝하고 관리하는 컴퓨팅 서비스입니다.
 
     </details>
 
@@ -406,49 +181,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: C
-
-    </details>
-
-30. What is a benefit of consolidated billing for AWS accounts?
-    - A. Access to AWS Personal Health Dashboard
-    - B. Combined usage volume discounts
-    - C. Improved account security
-    - D. Centralized AWS IAM
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://jayendrapatil.com/aws-consolidated-billing/>
-
-    </details>
-
-31. Which AWS service will allow a user to set custom cost and usage limits, and will alert when the thresholds are exceeded?
-    - A. AWS Organizations
-    - B. AWS Budgets
-    - C. Cost Explorer
-    - D. AWS Trusted Advisor
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/getting-started/hands-on/control-your-costs-free-tier-budgets/>
-
-    </details>
-
-32. Which AWS service provides the ability to detect inadvertent data leaks of personally identifiable information (PII) and user credential data?
-    - A. Amazon GuardDuty
-    - B. Amazon Inspector
-    - C. Amazon Macie
-    - D. AWS Shield
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/macie/>
+    Correct Answer: C</br>
+    비용을 부서별로 가장 명확하게 분리하고 관리하는 가장 좋은 방법은 각 부서별로 별도의 AWS 계정을 생성하고 이를 AWS Organizations로 통합하여 관리하는 것입니다. 이를 통해 비용 청구, 보안 및 액세스 제어를 독립적으로 유지할 수 있습니다. (태그도 사용되지만, 계정 분리가 가장 강력한 분리 방법입니다.)
 
     </details>
 
@@ -462,35 +196,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://aws.amazon.com/blogs/mt/monitoring-service-limits-with-trusted-advisor-and-amazon-cloudwatch/>
-
-    </details>
-
-34. A company has distributed its workload on both the AWS Cloud and some on-premises servers. <br/> What type of architecture is this?
-    - A. Virtual private network
-    - B. Virtual private cloud
-    - C. Hybrid cloud
-    - D. Private cloud
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/hybrid/>
-
-    </details>
-
-35. Which of the following describes a security best practice that can be implemented using AWS IAM?
-    - A. Disable AWS Management Console access for all users
-    - B. Generate secret keys for every IAM user
-    - C. Grant permissions to users who are required to perform a given task only
-    - D. Store AWS credentials within Amazon EC2 instances
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://cloudcheckr.com/cloud-security/top-5-iam-best-practices/>
+    Explanation: <https://aws.amazon.com/blogs/mt/monitoring-service-limits-with-trusted-advisor-and-amazon-cloudwatch/></br>
+    AWS Trusted Advisor는 서비스 한도 확인을 포함하여 AWS 환경을 최적화하기 위한 모범 사례 검사를 수행합니다. 서비스 한도 사용률이 80%를 초과할 경우 알림을 제공하여 잠재적인 운영 문제를 방지할 수 있게 돕습니다.
 
     </details>
 
@@ -508,7 +215,8 @@ layout: exam
     - Control Tower automates the process of setting up a new baseline multi-account AWS environment that is secure, well-architected, and ready to use.
     - Control Tower incorporates the knowledge that AWS Professional Service has gained over the course of thousands of successful customer engagements.
 
-    Reference: <https://aws.amazon.com/blogs/aws/aws-control-tower-set-up-govern-a-multi-account-aws-environment/>
+    Reference: <https://aws.amazon.com/blogs/aws/aws-control-tower-set-up-govern-a-multi-account-aws-environment/></br>
+    AWS Control Tower는 안전하고 잘 구성된 다중 계정 AWS 환경을 설정하고 관리하는 가장 쉽고 빠른 방법을 제공하는 서비스입니다. 이는 조직 내에서 계정을 프로비저닝하고 거버넌스 정책(가드레일)을 적용하는 것을 자동화합니다.
 
     </details>
 
@@ -522,7 +230,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://aws.amazon.com/blogs/training-and-certification/explore-the-aws-transit-gateway-networking-and-scaling-digital-course/>
+    Explanation: <https://aws.amazon.com/blogs/training-and-certification/explore-the-aws-transit-gateway-networking-and-scaling-digital-course/></br>
+    AWS Transit Gateway는 수많은 VPC와 온프레미스 네트워크를 중앙 집중식 허브를 통해 연결하여 복잡성을 줄이고 대규모 네트워크 연결을 쉽게 확장할 수 있도록 설계되었습니다. VPC 피어링은 소수의 VPC에 적합하지만, 수천 개의 VPC에는 관리가 복잡해집니다.
 
     </details>
 
@@ -536,7 +245,8 @@ layout: exam
 
     Correct Answer: A
 
-    Explanation: <https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html>
+    Explanation: <https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html></br>
+    AWS Shield Advanced는 표준 Shield 서비스가 제공하는 자동 인라인 완화 외에도, **DDoS 대응팀(DRT)**에 대한 연중무휴 액세스를 제공하여 DDoS 공격 발생 시 AWS 전문가의 직접적인 지원을 받을 수 있도록 합니다.
 
     </details>
 
@@ -550,34 +260,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://aws.amazon.com/ec2/pricing/>
-
-    </details>
-
-40. Under the AWS shared responsibility model, what are the customer's responsibilities? (Choose two.)
-    - A. Physical and environmental security
-    - B. Physical network devices including firewalls
-    - C. Storage device decommissioning
-    - D. Security of data in transit
-    - E. Data integrity authentication
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: DE
-
-    </details>
-
-41. A cloud practitioner has a data analysis workload that is infrequently executed and can be interrupted without harm. To optimize for cost, which Amazon EC2 purchasing option should be used?
-    - A. On-Demand Instances
-    - B. Reserved Instances
-    - C. Spot Instances
-    - D. Dedicated Hosts
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/ec2/pricing/>
+    Explanation: <https://aws.amazon.com/ec2/pricing/></br>
+    **스팟 인스턴스(Spot Instances)**는 미사용 상태인 Amazon EC2 용량을 요청하는 것으로, 가장 큰 할인을 제공하지만, AWS가 해당 용량을 필요로 할 경우 인스턴스가 중단될 수 있습니다. 따라서 유연한 시작/종료 시간을 가지고 있으며 중단되어도 괜찮은 워크로드(예: 배치 처리, 데이터 분석)에 가장 적합하고 비용 효율적입니다.
 
     </details>
 
@@ -589,20 +273,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: C
-
-    </details>
-
-43. Which of the following allows an application running on an Amazon EC2 instance to securely write data to an Amazon S3 bucket without using long term credentials?
-    - A. Amazon Cognito
-    - B. AWS Shield
-    - C. AWS IAM role
-    - D. AWS IAM user access key
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
+    Correct Answer: C</br>
+    **Amazon Elastic Container Service (Amazon ECS)**는 컨테이너화된 애플리케이션을 실행, 중지, 관리할 수 있는 확장성이 뛰어난 고성능 컨테이너 관리 서비스입니다. ECS는 클러스터 관리를 단순화하고 자동화하여 사용자가 기본 인프라 관리에 대해 걱정할 필요가 없도록 합니다.
     </details>
 
 44. A company with a Developer-level AWS Support plan provisioned an Amazon RDS database and cannot connect to it. <br/> Who should the developer contact for this level of support?
@@ -613,69 +285,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: A
-
-    </details>
-
-45. What is the purpose of having an internet gateway within a VPC?
-    - A. To create a VPN connection to the VPC
-    - B. To allow communication between the VPC and the Internet
-    - C. To impose bandwidth constraints on internet traffic
-    - D. To load balance traffic from the Internet across Amazon EC2 instances
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-46. A company must ensure that its endpoint for a database instance remains the same after a single Availability Zone service interruption. The application needs to resume database operations without the need for manual administrative intervention. <br/> How can these requirements be met?
-    - A. Use multiple Amazon Route 53 routes to the standby database instance endpoint hosted on AWS Storage Gateway.
-    - B. Configure Amazon RDS Multi-Availability Zone deployments with automatic failover to the standby.
-    - C. Add multiple Application Load Balancers and deploy the database instance with AWS Elastic Beanstalk.
-    - D. Deploy a single Network Load Balancer to distribute incoming traffic across multiple Amazon CloudFront origins.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-47. Which AWS managed service can be used to distribute traffic between one or more Amazon EC2 instances?
-    - A. NAT gateway
-    - B. Elastic Load Balancing
-    - C. Amazon Athena
-    - D. AWS PrivateLink
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-48. AWS Trusted Advisor provides recommendations on which of the following? (Choose two.)
-    - A. Cost optimization
-    - B. Auditing
-    - C. Serverless architecture
-    - D. Performance
-    - E. Scalability
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AD
-
-    </details>
-
-49. Which of the following tasks can only be performed after signing in with AWS account root user credentials? (Choose two.)
-    - A. Closing an AWS account
-    - B. Creating a new IAM policy
-    - C. Changing AWS Support plans
-    - D. Attaching a role to an Amazon EC2 instance
-    - E. Generating access keys for IAM users
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AC
+    Correct Answer: A</br>
+    Developer Support 플랜은 이메일 기반으로 기술 지원을 제공하며, 문제가 발생했을 때 AWS Support에 지원 케이스를 제출하여 도움을 받을 수 있습니다. (TAM은 Enterprise Support에서만 제공됩니다.)
 
     </details>
 
@@ -687,7 +298,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: D
+    Correct Answer: D</br>
+    **내결함성(Fault tolerance)**은 시스템의 일부 구성 요소에 **오류(fault)**가 발생하더라도 내장된 중복성 덕분에 전체 시스템이 계속 작동할 수 있도록 하는 시스템 설계의 속성입니다.
 
     </details>
 
