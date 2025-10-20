@@ -12,7 +12,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: A
+    Correct Answer: A</br>
+    AWS에서 환경별로 개별적인 청구서를 받으려면, 각 환경(개발, 테스트, 프로덕션)에 대해 별도의 AWS 계정을 생성하는 것이 가장 기본적인 방법입니다. AWS Organizations를 사용하여 이 계정들을 통합 관리할 수 있습니다.
 
     </details>
 
@@ -24,128 +25,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: C
-
-    </details>
-
-3. What can be used to reduce the cost of running Amazon EC2 instances? (Choose two.)
-    - A. Spot Instances for stateless and flexible workloads
-    - B. Memory optimized instances for high-compute workloads
-    - C. On-Demand Instances for high-cost and sustained workloads
-    - D. Reserved Instances for sustained workloads
-    - E. Spend limits set using AWS Budgets
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AD
-
-    </details>
-
-4. A company is launching an e-commerce site that will store and process credit card data. The company requires information about AWS compliance reports and AWS agreements. <br/> Which AWS service provides on-demand access to these items?
-    - A. AWS Certificate Manager
-    - B. AWS Config
-    - C. AWS Artifact
-    - D. AWS CloudTrail
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    </details>
-
-5. Which AWS service or feature allows the user to manage cross-region application traffic?
-    - A. Amazon AppStream 2.0
-    - B. Amazon VPC
-    - C. Elastic Load Balancer
-    - D. Amazon Route 53
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    </details>
-
-6. Which AWS service can be used to track unauthorized API calls?
-    - A. AWS Config
-    - B. AWS CloudTrail
-    - C. AWS Trusted Advisor
-    - D. Amazon Inspector
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-7. A user needs to regularly audit and evaluate the setup of all AWS resources, identify non-compliant accounts, and be notified when a resource changes. <br/> Which AWS service can be used to meet these requirements?
-    - A. AWS Trusted Advisor
-    - B. AWS Config
-    - C. AWS Resource Access Manager
-    - D. AWS Systems Manager
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-8. A user is planning to launch two additional Amazon EC2 instances to increase availability. <br/> Which action should the user take?
-    - A. Launch the instances across multiple Availability Zones in a single AWS Region.
-    - B. Launch the instances as EC2 Reserved Instances in the same AWS Region and the same Availability Zone.
-    - C. Launch the instances in multiple AWS Regions, but in the same Availability Zone.
-    - D. Launch the instances as EC2 Spot Instances in the same AWS Region, but in different Availability Zones.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    </details>
-
-9. A company must store critical business data in Amazon S3 with a backup to another AWS Region. <br/> How can this be achieved?
-    - A. Use an Amazon CloudFront Content Delivery Network (CDN) to cache data globally
-    - B. Set up Amazon S3 cross-region replication to another AWS Region
-    - C. Configure the AWS Backup service to back up to the data to another AWS Region
-    - D. Take Amazon S3 bucket snapshots and copy that data to another AWS Region
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-10. Which AWS Cloud service can send alerts to customers if custom spending thresholds are exceeded?
-    - A. AWS Budgets
-    - B. AWS Cost Explorer
-    - C. AWS Cost Allocation Tags
-    - D. AWS Organizations
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    </details>
-
-11. What is the recommended method to request penetration testing on AWS resources?
-    - A. Open a support case
-    - B. Fill out the Penetration Testing Request Form
-    - C. Request a penetration test from your technical account manager
-    - D. Contact your AWS sales representative
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-12. A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3. <br/> Which AWS service can meet these requirements?
-    - A. Amazon Inspector
-    - B. Amazon Macie
-    - C. Amazon GuardDuty
-    - D. AWS Secrets Manager
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
+    Correct Answer: C</br>
+    AWS CodePipeline은 애플리케이션 및 인프라 업데이트를 위한 릴리스 프로세스를 자동화하는 지속적 전달(Continuous Delivery) 서비스로, 애플리케이션 배포에 핵심적으로 사용됩니다.
 
     </details>
 
@@ -158,43 +39,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: CE
-
-    </details>
-
-14. Which Amazon EC2 pricing option is best suited for applications with short-term, spiky, or unpredictable workloads that cannot be interrupted?
-    - A. Spot Instances
-    - B. Dedicated Hosts
-    - C. On-Demand Instances
-    - D. Reserved Instances
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    </details>
-
-15. Which AWS cloud architecture principle states that systems should reduce interdependencies?
-    - A. Scalability
-    - B. Services, not servers
-    - C. Removing single points of failure
-    - D. Loose coupling
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    </details>
-
-16. What is the MOST effective resource for staying up to date on AWS security announcements?
-    - A. AWS Personal Health Dashboard
-    - B. AWS Secrets Manager
-    - C. AWS Security Bulletins
-    - D. Amazon Inspector
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
+    Correct Answer: CE</br>
+    Site-to-Site VPN 연결은 AWS VPC 측의 **가상 프라이빗 게이트웨이(VGW)**와 온프레미스 네트워크 측의 장치를 나타내는 **고객 게이트웨이(CGW)**가 쌍을 이루어야 설정할 수 있습니다.
 
     </details>
 
@@ -206,31 +52,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: C
-
-    </details>
-
-18. Which of the following allows AWS users to manage cost allocations for billing?
-    - A. Tagging resources
-    - B. Limiting who can create resources
-    - C. Adding a secondary payment method
-    - D. Running all operations on a single AWS account
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    </details>
-
-19. Which AWS service allows users to download security and compliance reports about the AWS infrastructure on demand?
-    - A. Amazon GuardDuty
-    - B. AWS Security Hub
-    - C. AWS Artifact
-    - D. AWS Shield
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
+    Correct Answer: C</br>
+    **Amazon Elastic Block Store (Amazon EBS)**는 Amazon EC2 인스턴스에 연결하여 사용하는 블록 스토리지 볼륨을 제공합니다. 이 볼륨은 인스턴스가 종료되어도 데이터가 유지되는 지속적인 스토리지이며, 파일 시스템으로 포맷되어 사용됩니다.
 
     </details>
 
@@ -243,7 +66,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: AD
+    Correct Answer: AD</br>
+    서버리스 서비스는 고객이 서버를 프로비저닝하거나 관리할 필요가 없습니다. AWS Lambda는 서버리스 컴퓨팅 서비스이며, Amazon DynamoDB는 서버리스 NoSQL 데이터베이스 서비스입니다.
 
     </details>
 
@@ -256,7 +80,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: AC
+    Correct Answer: AC</br>
+    AWS VPN은 공용 인터넷을 통한 암호화된 터널을 제공하며, AWS Direct Connect는 AWS와 온프레미스 간의 전용 사설 네트워크 연결을 제공하여 데이터 센터를 AWS로 확장하는 데 사용됩니다.
 
     </details>
 
@@ -268,7 +93,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: C
+    Correct Answer: C</br>
+    멤버 계정은 연결이 해제된 후에도 자체적으로 운영될 수 있도록, 독립 계정으로서 자체 결제 정보 설정 및 조직의 SCP(Service Control Policies) 제거 등의 요구 사항을 충족해야 합니다.
 
     </details>
 
@@ -280,49 +106,8 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: D
-
-    </details>
-
-24. During a compliance review, one of the auditors requires a copy of the AWS SOC 2 report. <br/> Which service should be used to submit this request?
-    - A. AWS Personal Health Dashboard
-    - B. AWS Trusted Advisor
-    - C. AWS Artifact
-    - D. Amazon S3
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    </details>
-
-25. A company wants to set up a highly available workload in AWS with a disaster recovery plan that will allow the company to recover in case of a regional service interruption. <br/> Which configuration will meet these requirements?
-    - A. Run on two Availability Zones in one AWS Region, using the additional Availability Zones in the AWS Region for the disaster recovery site.
-    - B. Run on two Availability Zones in one AWS Region, using another AWS Region for the disaster recovery site.
-    - C. Run on two Availability Zones in one AWS Region, using a local AWS Region for the disaster recovery site.
-    - D. Run across two AWS Regions, using a third AWS Region for the disaster recovery site.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BD
-
-    Explanation: <https://aws.amazon.com/blogs/startups/large-scale-disaster-recovery-using-aws-regions/>
-
-    Option D increased complexity and cost.
-
-    </details>
-
-26. A company has a 500 TB image repository that needs to be transported to AWS for processing. <br/> Which AWS service can import this data MOST cost-effectively?
-    - A. AWS Snowball
-    - B. AWS Direct Connect
-    - C. AWS VPN
-    - D. Amazon S3
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/blogs/storage/migrating-hundreds-of-tb-of-data-to-amazon-s3-with-aws-datasync/>
+    Correct Answer: D</br>
+    수요에 따라 리소스를 동적으로 늘리고 줄이는 능력은 **탄력성(Elasticity)**에 더 가깝지만, 주어진 선택지 중에서는 **확장성(Scalability)**이 가장 광범위하게 사용되는 개념이며, 유연한 확장을 포함하는 의미로 사용됩니다.
 
     </details>
 
@@ -336,20 +121,8 @@ layout: exam
 
     Correct Answer: C
 
-    Explanation: <https://aws.amazon.com/rds/postgresql/>
-
-    </details>
-
-28. Which of the following assist in identifying costs by department? (Choose two.)
-    - A. Using tags on resources
-    - B. Using multiple AWS accounts
-    - C. Using an account manager
-    - D. Using AWS Trusted Advisor
-    - E. Using Consolidated Billing
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AB
+    Explanation: <https://aws.amazon.com/rds/postgresql/></br>
+    **Amazon RDS (Relational Database Service)**는 PostgreSQL을 포함하여 다양한 관계형 데이터베이스 엔진을 위한 완전 관리형 서비스를 제공하며, 이는 트랜잭션 처리가 중요한 OLTP 워크로드에 사용됩니다.
 
     </details>
 
@@ -363,21 +136,8 @@ layout: exam
 
     Correct Answer: A
 
-    Explanation: <https://docs.aws.amazon.com/AmazonS3/latest/dev/walkthrough1.html>
-
-    </details>
-
-30. Which AWS service allows for effective cost management of multiple AWS accounts?
-    - A. AWS Organizations
-    - B. AWS Trusted Advisor
-    - C. AWS Direct Connect
-    - D. Amazon Connect
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/blogs/aws/aws-organizations-policy-based-management-for-multiple-aws-accounts/>
+    Explanation: <https://docs.aws.amazon.com/AmazonS3/latest/dev/walkthrough1.html></br>
+    IAM 정책에서 Principal 요소는 해당 정책의 액세스 주체(누구에게 권한을 부여하거나 거부할지), 즉 IAM 사용자, 역할 또는 AWS 계정을 지정합니다.
 
     </details>
 
@@ -391,7 +151,8 @@ layout: exam
 
     Correct Answer: C
 
-    Explanation: <https://aws.amazon.com/ec2/pricing/>
+    Explanation: <https://aws.amazon.com/ec2/pricing/></br>
+    단기적인(1개월) 기간 동안 약정 없이 중단 없이 실행되어야 하는 고객 대면 애플리케이션에는 On-Demand Instance가 가장 적합합니다.
 
     </details>
 
@@ -405,49 +166,8 @@ layout: exam
 
     Correct Answer: D
 
-    Explanation: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-forecast.html>
-
-    </details>
-
-33. Under the AWS shared responsibility model, which of the following is a responsibility of AWS?
-    - A. Enabling server-side encryption for objects stored in S3
-    - B. Applying AWS IAM security policies
-    - C. Patching the operating system on an Amazon EC2 instance
-    - D. Applying updates to the hypervisor
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/?ref=wellarchitected>
-
-    </details>
-
-34. A user is able to set up a master payer account to view consolidated billing reports through:
-    - A. AWS Budgets.
-    - B. Amazon Macie.
-    - C. Amazon QuickSight.
-    - D. AWS Organizations.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html>
-
-    </details>
-
-35. Performing operations as code is a design principle that supports which pillar of the AWS Well-Architected Framework?
-    - A. Performance efficiency
-    - B. Operational excellence
-    - C. Reliability
-    - D. Security
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/>
+    Explanation: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-forecast.html></br>
+    Cost Explorer는 사용자의 과거 비용 및 사용량 데이터를 기반으로 미래 12개월 동안의 예상 AWS 비용을 예측하는 기능을 제공합니다.
 
     </details>
 
@@ -461,7 +181,8 @@ layout: exam
 
     Correct Answer: C
 
-    Explanation: <https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/>
+    Explanation: <https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/></br>
+    안정성 기둥은 시스템이 오류 발생 시 정상적으로 복구될 수 있도록 보장하는 것을 목표로 합니다. 이를 위해 복구 절차를 정기적으로 테스트하는 것이 주요 설계 원칙 중 하나입니다.
 
     </details>
 
@@ -475,33 +196,8 @@ layout: exam
 
     Correct Answer: A
 
-    Explanation: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-convertible-exchange.html>
-
-    </details>
-
-38. The user is fully responsible for which action when running workloads on AWS?
-    - A. Patching the infrastructure components
-    - B. Implementing controls to route application traffic
-    - C. Maintaining physical and environmental controls
-    - D. Maintaining the underlying infrastructure components
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-39. An architecture design includes Amazon EC2, an Elastic Load Balancer, and Amazon RDS. <br/> What is the BEST way to get a monthly cost estimation for this architecture?
-    - A. Open an AWS Support case, provide the architecture proposal, and ask for a monthly cost estimation.
-    - B. Collect the published prices of the AWS services and calculate the monthly estimate.
-    - C. Use the AWS Simple Monthly Calculator to estimate the monthly cost.
-    - D. Use the AWS Total Cost of Ownership (TCO) Calculator to estimate the monthly cost.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://docs.aws.amazon.com/pricing-calculator/latest/userguide/aws-pc.pdf>
+    Explanation: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-convertible-exchange.html></br>
+    Convertible RI는 약정 기간 동안 인스턴스 유형(제품군)을 변경할 수 있는 유연성을 제공하지만, 교환되는 RI는 기존 RI와 동일하거나 더 높은 가치를 가져야 합니다.
 
     </details>
 
@@ -516,35 +212,8 @@ layout: exam
 
     Correct Answer: AD
 
-    Explanation: <https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html>
-
-    </details>
-
-41. What does the Amazon S3 Intelligent-Tiering storage class offer?
-    - A. Payment flexibility by reserving storage capacity
-    - B. Long-term retention of data by copying the data to an encrypted Amazon Elastic Block Store (Amazon EBS) volume
-    - C. Automatic cost savings by moving objects between tiers based on access pattern changes
-    - D. Secure, durable, and lowest cost storage for data archival
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/about-aws/whats-new/2018/11/s3-intelligent-tiering/>
-
-    </details>
-
-42. A company has multiple data sources across the organization and wants to consolidate data into one data warehouse. <br/> Which AWS service can be used to meet this requirement?
-    - A. Amazon DynamoDB
-    - B. Amazon Redshift
-    - C. Amazon Athena
-    - D. Amazon QuickSight
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/redshift/faqs/>
+    Explanation: <https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html></br>
+    Amazon RDS는 관리형 서비스이므로, AWS가 자동화된 백업 및 데이터베이스 엔진과 운영 체제에 대한 소프트웨어 패치와 같은 일상적인 관리 작업을 대신 처리합니다.
 
     </details>
 
@@ -558,60 +227,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config.html>
-
-    </details>
-
-44. A user has underutilized on-premises resources. <br/> Which AWS Cloud concept can BEST address this issue?
-    - A. High availability
-    - B. Elasticity
-    - C. Security
-    - D. Loose coupling
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://www.gremlin.com/blog/implementing-cost-saving-strategies-on-amazon-ec-2-with-chaos-engineering/>
-
-    </details>
-
-45. A user has a stateful workload that will run on Amazon EC2 for the next 3 years. <br/> What is the MOST cost-effective pricing model for this workload?
-    - A. On-Demand Instances
-    - B. Reserved Instances
-    - C. Dedicated Instances
-    - D. Spot Instances
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-46. A cloud practitioner needs an Amazon EC2 instance to launch and run for 7 hours without interruptions. <br/> What is the most suitable and cost-effective option for this task?
-    - A. On-Demand Instance
-    - B. Reserved Instance
-    - C. Dedicated Host
-    - D. Spot Instance
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    </details>
-
-47. Which of the following are benefits of using AWS Trusted Advisor? (Choose two.)
-    - A. Providing high-performance container orchestration
-    - B. Creating and rotating encryption keys
-    - C. Detecting underutilized resources to save costs
-    - D. Improving security by proactively monitoring the AWS environment
-    - E. Implementing enforced tagging across AWS resources
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: CD
-
-    Explanation: <https://aws.amazon.com/about-aws/whats-new/2016/06/aws-support-enables-tagging-capabilities-for-trusted-advisor/>
+    Explanation: <https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config.html></br>
+    AWS Config는 리소스 구성의 변경 사항을 기록하고 규정 준수 규칙에 대해 평가하는 데 사용됩니다.
 
     </details>
 
@@ -624,35 +241,7 @@ layout: exam
 
     <details markdown=1><summary markdown="span">Answer</summary>
 
-    Correct Answer: AE
+    Correct Answer: AE</br>
+    최소 권한의 원칙을 따르는 것(A)과 강력한 IAM 암호 정책을 설정하는 것(E)은 기본적인 보안 모범 사례입니다. 루트 사용자 자격 증명 공유는 금지됩니다.
 
     </details>
-
-49. Which AWS storage service is designed to transfer petabytes of data in and out of the cloud?
-    - A. AWS Storage Gateway
-    - B. Amazon S3 Glacier Deep Archive
-    - C. Amazon Lightsail
-    - D. AWS Snowball
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://docs.aws.amazon.com/snowball/latest/ug/transfer-petabytes.html>
-
-    </details>
-
-50. Which service provides a user the ability to warehouse data in the AWS Cloud?
-    - A. Amazon EFS
-    - B. Amazon Redshift
-    - C. Amazon RDS
-    - D. Amazon VPC
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/redshift/>
-
-    </details>
-
