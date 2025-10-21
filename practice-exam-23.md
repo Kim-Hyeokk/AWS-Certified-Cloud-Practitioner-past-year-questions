@@ -4,18 +4,6 @@ layout: exam
 
 # Practice Exam 23
 
-1. A user is planning to migrate an application workload to the AWS Cloud. <br/> Which control becomes the responsibility of AWS once the migration is complete?
-    - A. Patching the guest operating system
-    - B. Maintaining physical and environmental controls
-    - C. Protecting communications and maintaining zone security
-    - D. Patching specific applications
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
 2. Which services can be used to deploy applications on AWS? (Choose two.)
     - A. AWS Elastic Beanstalk
     - B. AWS Config
@@ -27,7 +15,10 @@ layout: exam
 
     Correct Answer: AC
 
-    Explanation: <https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf>
+    Explanation: <https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf></br>
+    AWS Elastic Beanstalk은 코드 업로드만으로 인프라 프로비저닝, 배포, 로드 밸런싱 등을 자동으로 처리해주는 서비스입니다.
+
+AWS OpsWorks는 Chef 및 Puppet을 사용하여 인프라를 구성 및 배포하는 관리형 서비스입니다.
 
     </details>
 
@@ -41,7 +32,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://aws.amazon.com/connect/customers/>
+    Explanation: <https://aws.amazon.com/connect/customers/></br>
+    Amazon Connect는 몇 분 만에 설정할 수 있는 클라우드 기반 컨택 센터 서비스입니다.
 
     </details>
 
@@ -55,7 +47,8 @@ layout: exam
 
     Correct Answer: D
 
-    Explanation: <https://calculator.aws/#/>
+    Explanation: <https://calculator.aws/#/></br>
+    AWS Pricing Calculator는 AWS 계정이 없는 사용자도 예상 아키텍처를 기반으로 월별 AWS 비용을 추정할 수 있도록 설계된 도구입니다.
 
     </details>
 
@@ -69,7 +62,8 @@ layout: exam
 
     Correct Answer: D
 
-    Explanation: <https://d1.awsstatic.com/whitepapers/aws-security-whitepaper.pdf>
+    Explanation: <https://d1.awsstatic.com/whitepapers/aws-security-whitepaper.pdf></br>
+    **Internet Gateway (IGW)**는 VPC의 인스턴스가 인터넷에 연결될 수 있도록 하는 VPC 구성 요소입니다. 인스턴스가 인터넷으로부터 트래픽을 수신(인바운드)하거나 외부로 트래픽을 전송(아웃바운드)하려면 IGW가 필요합니다.
 
     </details>
 
@@ -83,75 +77,8 @@ layout: exam
 
     Correct Answer: C
 
-    Explanation: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-reserved-instances.html>
-
-    </details>
-
-7. A company has a MySQL database running on a single Amazon EC2 instance. The company now requires higher availability in the event of an outage. <br/> Which set of tasks would meet this requirement?
-    - A. Add an Application Load Balancer in front of the EC2 instance
-    - B. Configure EC2 Auto Recovery to move the instance to another Availability Zone
-    - C. Migrate to Amazon RDS and enable Multi-AZ
-    - D. Enable termination protection for the EC2 instance to avoid outages
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html>
-
-    </details>
-
-8. A company wants to ensure that AWS Management Console users are meeting password complexity requirements. <br/> How can the company configure password complexity?
-    - A. Using an AWS IAM user policy
-    - B. Using an AWS Organizations service control policy (SCP)
-    - C. Using an AWS IAM account password policy
-    - D. Using an AWS Security Hub managed insight
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html>
-
-    </details>
-
-9. Under the AWS shared responsibility model, which of the following is the customer's responsibility?
-    - A. Patching guest OS and applications
-    - B. Patching and fixing flaws in the infrastructure
-    - C. Physical and environmental controls
-    - D. Configuration of AWS infrastructure devices
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    </details>
-
-10. Which of the following tasks is required to deploy a PCI-compliant workload on AWS?
-    - A. Use any AWS service and implement PCI controls at the application layer
-    - B. Use an AWS service that is in-scope for PCI compliance and raise an AWS support ticket to enable PCI compliance at the application layer
-    - C. Use any AWS service and raise an AWS support ticket to enable PCI compliance on that service
-    - D. Use an AWS service that is in scope for PCI compliance and apply PCI controls at the application layer
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-pci-controls.html>
-
-    </details>
-
-11. A company is building an application that requires the ability to send, store, and receive messages between application components. The company has another requirement to process messages in first-in, first-out (FIFO) order. <br/> Which AWS service should the company use?
-    - A. AWS Step Functions
-    - B. Amazon Simple Notification Service (Amazon SNS)
-    - C. Amazon Kinesis Data Streams
-    - D. Amazon Simple Queue Service (Amazon SQS)
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://aws.amazon.com/sqs/faqs/>
+    Explanation: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-reserved-instances.html></br>
+    예측 가능한 장기 워크로드(1년)의 경우, **Reserved Instance (RI)**가 가장 큰 할인을 제공합니다. RI 옵션 중에서는 **전액 선결제(All Upfront)**가 가장 큰 할인을 제공하지만, 그 다음으로 **부분 선결제(Partial Upfront)**가 선결제 없는(No Upfront) 옵션보다 더 큰 할인을 제공합니다.
 
     </details>
 
@@ -165,21 +92,8 @@ layout: exam
 
     Correct Answer: C
 
-    Explanation: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/awsaccountbilling-aboutv2.pdf>
-
-    </details>
-
-13. Which tool can be used to create alerts when the actual or forecasted cost of AWS services exceeds a certain threshold?
-    - A. Cost Explorer
-    - B. AWS Budgets
-    - C. AWS Cost and Usage Report
-    - D. AWS CloudTrail
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/getting-started/hands-on/control-your-costs-free-tier-budgets/>
+    Explanation: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/awsaccountbilling-aboutv2.pdf></br>
+    AWS Organizations는 여러 AWS 계정을 하나로 통합하고, **통합 결제(Consolidated Billing)**를 통해 마스터 계정에서 조직 내 모든 계정에 대해 단일 청구서를 받도록 할 수 있습니다.
 
     </details>
 
@@ -193,7 +107,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://aws.amazon.com/elasticbeanstalk/>
+    Explanation: <https://aws.amazon.com/elasticbeanstalk/></br>
+    AWS Elastic Beanstalk은 애플리케이션 코드를 업로드하는 것 외에는 인프라 관리가 거의 필요 없으므로 AWS 지식이 제한적인 사용자에게 적합하며, 자동 확장(scalability) 및 로드 밸런싱을 자동으로 설정합니다.
 
     </details>
 
@@ -207,49 +122,8 @@ layout: exam
 
     Correct Answer: A
 
-    Explanation: <https://www.amazonaws.cn/en/support/trustedadvisor/faq/#checks>
-
-    </details>
-
-16. A web developer is concerned that a DDoS attack could target an application. <br/> Which AWS services or features can help protect against such an attack? (Choose two.)
-    - A. AWS Shield
-    - B. AWS CloudTrail
-    - C. Amazon CloudFront
-    - D. AWS Support Center
-    - E. AWS Service Health Dashboard
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AC
-
-    Explanation: <https://aws.amazon.com/shield/>
-
-    </details>
-
-17. Which AWS service gives users on-demand, self-service access to AWS compliance control reports?
-    - A. AWS Config
-    - B. Amazon GuardDuty
-    - C. AWS Trusted Advisor
-    - D. AWS Artifact
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://aws.amazon.com/artifact>
-
-    </details>
-
-18. A company wants to provide one of its employees with access to Amazon RDS. The company also wants to limit the interaction to only the AWS CLI and AWS software development kits (SDKs). <br/> Which combination of actions should the company take to meet these requirements while following the principles of least privilege? (Choose two.)
-    - A. Create an IAM user and provide AWS Management Console access only.
-    - B. Create an IAM user and provide programmatic access only.
-    - C. Create an IAM role and provide AWS Management Console access only.
-    - D. Create an IAM policy with administrator access and attach it to the IAM user.
-    - E. Create an IAM policy with Amazon RDS access and attach it to the IAM user.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: BE
+    Explanation: <https://www.amazonaws.cn/en/support/trustedadvisor/faq/#checks></br>
+    AWS Trusted Advisor는 비용 최적화, 보안, 내결함성, 성능 및 서비스 한도 검사를 제공합니다. 이 중 **핵심 검사(Core checks)**는 모든 AWS 고객에게 제공됩니다. 다른 전체 검사는 Business 또는 Enterprise Support 플랜이 필요합니다.
 
     </details>
 
@@ -263,50 +137,8 @@ layout: exam
 
     Correct Answer: A
 
-    Explanation: <https://aws.amazon.com/config/>
-
-    </details>
-
-20. What are the advantages of deploying an application with Amazon EC2 instances in multiple Availability Zones? (Choose two.)
-    - A. Preventing a single point of failure
-    - B. Reducing the operational costs of the application
-    - C. Allowing the application to serve cross-region users with low latency
-    - D. Increasing the availability of the application
-    - E. Increasing the load of the application
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AD
-
-    Explanation: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-increase-availability.html>
-
-    </details>
-
-21. A workload on AWS will run for the foreseeable future by using a consistent number of Amazon EC2 instances. <br/> What pricing model will minimize cost while ensuring that compute resources remain available?
-    - A. Dedicated Hosts
-    - B. On-Demand Instances
-    - C. Spot Instances
-    - D. Reserved Instances
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-reserved-instances.html>
-
-    </details>
-
-22. Which tool can be used to identify scheduled changes to the AWS infrastructure?
-    - A. AWS Personal Health Dashboard
-    - B. AWS Trusted Advisor
-    - C. Billing Dashboard
-    - D. AWS Config
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard/>
+    Explanation: <https://aws.amazon.com/config/></br>
+    AWS Config는 리소스 구성의 변경 사항을 추적 및 기록하고, 설정된 규칙에 대해 구성의 규정 준수 여부를 평가하며, 비준수 리소스에 대한 자동 교정 조치를 설정할 수 있습니다.
 
     </details>
 
@@ -320,7 +152,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.html>
+    Explanation: <https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.html></br>
+    Amazon RDS는 관리형 서비스이지만, **네트워크 보안 제어(Security Groups)**를 구성하여 데이터베이스에 대한 접근을 제어하는 것은 여전히 고객의 책임입니다.
 
     </details>
 
@@ -334,49 +167,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://aws.amazon.com/lambda/security-overview-of-aws-lambda/>
-
-    </details>
-
-25. A company wants to be notified when its AWS Cloud costs or usage exceed defined thresholds. <br/> Which AWS service will support these requirements?
-    - A. AWS Budgets
-    - B. Cost Explorer
-    - C. AWS CloudTrail
-    - D. Amazon Macie
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/aws-cost-management/aws-budgets/>
-
-    </details>
-
-26. Which AWS service provides the ability to host a NoSQL database in the AWS Cloud?
-    - A. Amazon Aurora
-    - B. Amazon DynamoDB
-    - C. Amazon RDS
-    - D. Amazon Redshift
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/nosql/>
-
-    </details>
-
-27. Which AWS service allows customers to purchase unused Amazon EC2 capacity at an often discounted rate?
-    - A. Reserved Instances
-    - B. On-Demand Instances
-    - C. Dedicated Instances
-    - D. Spot Instances
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://aws.amazon.com/ec2/spot/>
+    Explanation: <https://aws.amazon.com/lambda/security-overview-of-aws-lambda/></br>
+    Lambda는 서버리스 서비스이므로 AWS가 OS 및 플랫폼 관리를 담당합니다. 고객은 **함수 코드(애플리케이션)**를 작성, 테스트, 배포 및 관리하는 데 전적인 책임이 있습니다.
 
     </details>
 
@@ -390,93 +182,8 @@ layout: exam
 
     Correct Answer: C
 
-    Explanation: <https://aws.amazon.com/directconnect/partners/>
-
-    </details>
-
-29. Which AWS services offer compute capabilities? (Choose two.)
-    - A. Amazon EC2
-    - B. Amazon S3
-    - C. Amazon Elastic Block Store (Amazon EBS)
-    - D. Amazon Cognito
-    - E. AWS Lambda
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AE
-
-    Explanation: <https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html>
-
-    </details>
-
-30. Which AWS service can be used to privately store and manage versions of source code?
-    - A. AWS CodeBuild
-    - B. AWS CodeCommit
-    - C. AWS CodePipeline
-    - D. AWS CodeStar
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://docs.aws.amazon.com/codecommit/latest/userguide/welcome.html>
-
-    </details>
-
-31. Which AWS service should a cloud practitioner use to identify security vulnerabilities of an AWS account?
-    - A. AWS Secrets Manager
-    - B. Amazon Cognito
-    - C. Amazon Macie
-    - D. AWS Trusted Advisor
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://www.coalfire.com/the-coalfire-blog/march-2019/aws-trusted-advisor-for-security-compliance>
-
-    </details>
-
-32. A company wants to ensure its infrastructure is designed for fault tolerance and business continuity in the event of an environmental disruption. <br/> Which AWS infrastructure component should the company replicate across?
-    - A. Edge locations
-    - B. Availability Zones
-    - C. Regions
-    - D. Amazon Route 53
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://d36cz9buwru1tt.cloudfront.net/AWS_Building_Fault_Tolerant_Applications.pdf>
-
-    </details>
-
-33. Which AWS service or feature is used to send both text and email messages from distributed applications?
-    - A. Amazon Simple Notification Service (Amazon SNS)
-    - B. Amazon Simple Email Service (Amazon SES)
-    - C. Amazon CloudWatch alerts
-    - D. Amazon Simple Queue Service (Amazon SQS)
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/sns/faqs/>
-
-    </details>
-
-34. Which AWS Cloud design principles can help increase reliability? (Choose two.)
-    - A. Using monolithic architecture
-    - B. Measuring overall efficiency
-    - C. Testing recovery procedures
-    - D. Adopting a consumption model
-    - E. Automatically recovering from failure
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: CE
-
-    Explanation: <https://wa.aws.amazon.com/wat.pillar.reliability.en.html>
+    Explanation: <https://aws.amazon.com/directconnect/partners/></br>
+    AWS Direct Connect는 AWS와 온프레미스 데이터 센터 또는 코로케이션 환경 간에 전용 사설 연결을 설정하여, 공용 인터넷을 우회하는 낮은 지연 시간의 연결을 제공합니다. 이는 ISP 또는 파트너를 통한 물리적 연결 설정이 필요합니다.
 
     </details>
 
@@ -491,35 +198,10 @@ layout: exam
 
     Correct Answer: BD
 
-    Explanation: <https://aws.amazon.com/cloudfront/faqs/>
+    Explanation: <https://aws.amazon.com/cloudfront/faqs/></br>
+    **Amazon CloudFront (CDN)**는 엣지 로케이션을 사용하여 이미지, 비디오와 같은 콘텐츠를 사용자에게 가장 가까운 곳에서 캐싱하여 낮은 지연 시간으로 제공합니다.
 
-    </details>
-
-36. A company wants to connect to AWS over a private, low-latency connection from its remote office. <br/> What is the recommended method to meet these requirements?
-    - A. Create a VPN tunnel
-    - B. Connect across the public internet
-    - C. Use VPC peering to create a connection.
-    - D. Use AWS Direct Connect.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://aws.amazon.com/getting-started/projects/connect-data-center-to-aws/>
-
-    </details>
-
-37. Which AWS service can be used to retrieve compliance reports on demand?
-    - A. AWS Secrets Manager
-    - B. AWS Artifact
-    - C. AWS Security Hub
-    - D. AWS Certificate Manager
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    Explanation: <https://aws.amazon.com/artifact/>
+AWS Global Accelerator는 AWS 글로벌 네트워크를 사용하여 애플리케이션 트래픽을 사용자에게 가장 가까운 AWS 엣지 로케이션으로 라우팅하여 인터넷을 통한 성능을 최적화합니다.
 
     </details>
 
@@ -533,7 +215,8 @@ layout: exam
 
     Correct Answer: B
 
-    Explanation: <https://aws.amazon.com/waf/faq/>
+    Explanation: <https://aws.amazon.com/waf/faq/></br>
+    **AWS WAF (Web Application Firewall)**는 웹 애플리케이션 또는 API를 일반적인 웹 공격(예: SQL 삽입, XSS)으로부터 보호하는 데 사용됩니다.
 
     </details>
 
@@ -547,120 +230,8 @@ layout: exam
 
     Correct Answer: A
 
-    Explanation: <https://www.betsol.com/blog/how-to-make-high-availability-web-applications-on-amazon-web-services/>
-
-    </details>
-
-40. A company is running a self-managed Oracle database directly on Amazon EC2 for its steady-state database. The company wants to reduce compute costs. <br/> Which option should the company use to maximize savings over a 3-year term?
-    - A. EC2 Dedicated Instances
-    - B. EC2 Spot Instances
-    - C. EC2 Reserved Instances
-    - D. EC2 On-Demand Instances
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/choosing-a-cloud-platform/>
-
-    </details>
-
-41. An external auditor has requested that a company provide a list of all its IAM users, including the status of users' credentials and access keys. <br/> What it the SIMPLEST way to provide this information?
-    - A. Create an IAM user account for the auditor, granting the auditor administrator permissions.
-    - B. Take a screenshot of each user's page in the AWS Management Console, then provide the screenshots to the auditor.
-    - C. Download the IAM credential report, then provide the report to the auditor.
-    - D. Download the AWS Trusted Advisor report, then provide the report to the auditor.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_getting-report.html>
-
-    </details>
-
-42. What are the benefits of consolidated billing for AWS Cloud services? (Choose two.)
-    - A. Volume discounts
-    - B. A minimal additional fee for use
-    - C. One bill for multiple accounts
-    - D. Installment payment options
-    - E. Custom cost and usage budget creation
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: AC
-
-    Explanation: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html>
-
-    </details>
-
-43. A company is expecting a short-term spike in internet traffic for its application. During the traffic increase, the application cannot be interrupted. The company also needs to minimize cost and maximize flexibility. <br/> Which Amazon EC2 instance type should the company use to meet these requirements?
-    - A. On-Demand Instances
-    - B. Spot Instances
-    - C. Reserved Instances
-    - D. Dedicated Hosts
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/ec2/faqs/>
-
-    </details>
-
-44. A company wants to track AWS resource configuration changes for compliance reasons. <br/> Which AWS feature can be used to meet this requirement?
-    - A. AWS Cost and Usage Report
-    - B. AWS Organizations service control policies (SCPs)
-    - C. AWS Config rules
-    - D. VPC Flow Logs
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation: <https://aws.amazon.com/config/>
-
-    </details>
-
-45. A company is building an application that needs to deliver images and videos globally with minimal latency. <br/> Which approach can the company use to accomplish this in a cost effective manner?
-    - A. Deliver the content through Amazon CloudFront.
-    - B. Store the content on Amazon S3 and enable S3 cross-region replication.
-    - C. Implement a VPN across multiple AWS Regions.
-    - D. Deliver the content through AWS PrivateLink.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: A
-
-    Explanation: <https://aws.amazon.com/blogs/industries/how-to-build-a-global-scalable-low-latency-and-secure-machine-learning-medical-imaging-analysis-platform-on-aws/>
-
-    </details>
-
-46. The AWS IAM best practice for granting least privilege is to:
-    - A. apply an IAM policy to an IAM group and limit the size of the group.
-    - B. require multi-factor authentication (MFA) for all IAM users.
-    - C. require each IAM user who has different permissions to have multiple passwords.
-    - D. apply an IAM policy only to IAM users who require it.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://kirkpatrickprice.com/blog/best-practices-for-privilege-management-in-aws/>
-
-    </details>
-
-47. Which cloud computing benefit does AWS demonstrate with its ability to offer lower variable costs as a result of high purchase volumes?
-    - A. Pay-as-you-go pricing
-    - B. High availability
-    - C. Global reach
-    - D. Economies of scale
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: D
-
-    Explanation: <https://innovationtactics.com/amazon-business-model-amazon-web-services/>
+    Explanation: <https://www.betsol.com/blog/how-to-make-high-availability-web-applications-on-amazon-web-services/></br>
+    고가용성은 단일 실패 지점을 제거하는 것이 핵심입니다. 이는 **여러 가용 영역(AZ)**에 애플리케이션 인스턴스를 분산하여 배포함으로써 달성됩니다.
 
     </details>
 
@@ -674,34 +245,7 @@ layout: exam
 
     Correct Answer: C
 
-    Explanation: <https://d1.awsstatic.com/whitepapers/building-a-scalable-and-secure-multi-vpc-aws-network-infrastructure.pdf>
+    Explanation: <https://d1.awsstatic.com/whitepapers/building-a-scalable-and-secure-multi-vpc-aws-network-infrastructure.pdf></br>
+    AWS Transit Gateway는 수천 개의 VPC 및 온프레미스 네트워크를 중앙 집중식 허브를 통해 연결하는 데 사용됩니다. 이는 복잡한 VPC 피어링 네트워크를 대체하여 관리를 단순화하고 운영 비용을 절감합니다.
 
     </details>
-
-49. How can AWS enable a company to control expenses as an application's usage changes unpredictably?
-    - A. AWS will refund the cost difference if a customer moves to larger servers.
-    - B. The application can be built to scale up or down automatically as resources are needed
-    - C. Spot instances will automatically be used if the price is lower than on-demand instances.
-    - D. Amazon CloudWatch will automatically predict what resources are needed.
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: B
-
-    </details>
-
-50. Which AWS service or feature can be used to prevent SQL injection attacks?
-    - A. Security groups
-    - B. Network ACLs
-    - C. AWS WAF
-    - D. IAM policy
-
-    <details markdown=1><summary markdown="span">Answer</summary>
-
-    Correct Answer: C
-
-    Explanation:
-    <https://docs.aws.amazon.com/waf/latest/developerguide/classic-web-acl-sql-conditions.html>
-
-    </details>
-
