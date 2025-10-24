@@ -13,6 +13,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, B
+        ACM은 인증서를 만들고 관리하며, Route 53는 도메인 연동에 필수적입니다.
     </details>
 
 2. Which of the following AWS services scale automatically without your intervention? (Choose TWO)
@@ -24,17 +25,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B, C
-    </details>
-
-3. A company is planning to migrate an application from Amazon EC2 to AWS Lambda to use a serverless architecture. Which of the following will be the responsibility of AWS after migration? (Choose TWO)
-    - A. Application management.
-    - B. Capacity management.
-    - C. Access control.
-    - D. Operating system maintenance.
-    - E. Data management.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, D
+        S3는 무제한 스토리지이고, Lambda는 이벤트에 따라 컴퓨팅 용량을 자동으로 확장합니다.
     </details>
 
 4. How do ELBs improve the reliability of your application?
@@ -45,16 +36,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
-    </details>
-
-5. A company needs to migrate their website from on-premises to AWS. Security is a major concern for them, so they need to host their website on hardware that is NOT shared with other AWS customers. Which of the following EC2 instance options meets this requirement?
-    - A. On-demand instances.
-    - B. Spot instances.
-    - C. Dedicated instances.
-    - D. Reserved instances.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+        ELB는 **상태 확인(Health Checks)**을 통해 문제가 있는 인스턴스는 제외하고 정상 인스턴스로만 트래픽을 보냅니다.
     </details>
 
 6. A customer is planning to move billions of images and videos to be stored on Amazon S3. The customer has approximately 60 Petabytes of data to move. Which of the following AWS Services is the best choice to transfer the data to AWS?
@@ -65,26 +47,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
-    </details>
-
-7. A company plans to migrate a large amount of archived data to AWS. The archived data must be maintained for a period of 5 years and must be retrievable within 5 hours of a request. What is the most cost-effective AWS storage service to use?
-    - A. Amazon S3 Glacier.
-    - B. Amazon EFS.
-    - C. Amazon S3 Standard.
-    - D. Amazon EBS.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-8. Which AWS Service is used to manage user permissions?
-    - A. Security Groups.
-    - B. Amazon ECS.
-    - C. AWS IAM.
-    - D. AWS Support.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+        60 PB는 10 PB 이상의 초 대규모 데이터 전송에 사용되는 Snowmobile의 대상입니다.
     </details>
 
 9. Which support plan includes AWS Support Concierge Service?
@@ -95,16 +58,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
-    </details>
-
-10. A company needs to track resource changes using the API call history. Which AWS service can help the company achieve this goal?
-    - A. AWS Config.
-    - B. Amazon CloudWatch.
-    - C. AWS CloudTrail.
-    - D. AWS CloudFormation.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+        Concierge Service는 청구 및 계정 관리를 위해 Enterprise Support 고객에게 제공됩니다.
     </details>
 
 11. What are the benefits of using an AWS-managed service? (Choose TWO)
@@ -116,6 +70,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B, C
+        AWS가 인프라를 관리하여 고객의 운영 부담을 덜고 출시 속도를 높입니다.
     </details>
 
 12. Which of the following are use cases for Amazon S3? (Choose TWO)
@@ -127,36 +82,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, D
-    </details>
-
-13. What is the AWS’ recommendation regarding access keys?
-    - A. Delete all access keys and use passwords instead.
-    - B. Only share them with trusted people.
-    - C. Rotate them regularly.
-    - D. Save them within your application code.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-14. What is the AWS IAM feature that provides an additional layer of security on top of user-name and password authentication?
-    - A. Key Pair.
-    - B. Access Keys.
-    - C. SDK.
-    - D. MFA.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-15. What is the benefit of using an API to access AWS Services?
-    - A. It improves the performance of AWS resources.
-    - B. It reduces the time needed to provision AWS resources.
-    - C. It reduces the number of developers necessary.
-    - D. It allows for programmatic management of AWS resources.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+        S3는 정적 콘텐츠 및 CDN(CloudFront)의 원본으로 사용됩니다.
     </details>
 
 16. A company is planning to migrate a database with high read/write activity to AWS. What is the best storage option to use?
@@ -167,6 +93,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
+        EBS는 데이터베이스에 필요한 높은 IOPS와 낮은 지연 시간을 제공하는 블록 스토리지입니다.
     </details>
 
 17. How can AWS customers track and avoid over-spending on underutilized reserved instances?
@@ -177,16 +104,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
-    </details>
-
-18. What is the AWS service that provides five times the performance of a standard MySQL database?
-    - A. Amazon Aurora.
-    - B. Amazon Redshift.
-    - C. Amazon DynamoDB.
-    - D. Amazon Neptune.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+        AWS Budgets를 사용하여 RI 활용률에 대한 경고를 설정하여 비용 낭비를 방지합니다.
     </details>
 
 19. What does AWS Service Catalog provide?
@@ -197,17 +115,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
-    </details>
-
-20. For managed services like Amazon DynamoDB, which of the below is AWS responsible for? (Choose TWO)
-    - A. Protecting credentials.
-    - B. Logging access activity.
-    - C. Patching the database software.
-    - D. Operating system maintenance.
-    - E. Creating access policies.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C, D
+        Service Catalog는 조직에서 승인된 IT 서비스를 쉽게 배포하고 거버넌스를 관리할 수 있도록 돕습니다.
     </details>
 
 21. Which of the following AWS Services helps with planning application migration to the AWS Cloud?
@@ -218,6 +126,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
+        온프레미스 환경을 분석하고 검색하여 마이그레이션 계획을 위한 데이터를 수집합니다.
     </details>
 
 22. A company is trying to analyze the costs applied to their AWS account recently. Which of the following provides them the most granular data about their AWS costs and usage?
@@ -228,69 +137,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
-    </details>
-
-23. Which statement best describes the concept of an AWS region?
-    - A. An AWS Region is a geographical location with a collection of Edge locations.
-    - B. An AWS Region is a virtual network dedicated only to a single AWS customer.
-    - C. An AWS Region is a geographical location with a collection of Availability Zones.
-    - D. An AWS Region represents the country where the AWS infrastructure exist.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-24. A company has discovered that multiple S3 buckets were deleted, but it is unclear who deleted the buckets. Which of the following can the company use to determine the identity that deleted the buckets?
-    - A. SNS logs.
-    - B. SQS logs.
-    - C. CloudWatch Logs.
-    - D. CloudTrail logs.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-25. Which of the following are factors in determining the appropriate database technology to use for a specific workload? (Choose TWO)
-    - A. Availability Zones.
-    - B. Data sovereignty.
-    - C. The number of reads and writes per second.
-    - D. The nature of the queries.
-    - E. Software bugs.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C, D
-    </details>
-
-26. What are the benefits of implementing a tagging strategy for AWS resources? (Choose TWO)
-    - A. Quickly identify resources that belong to a specific project.
-    - B. Quickly identify software solutions on AWS.
-    - C. Track API calls in your AWS account.
-    - D. Quickly identify deleted resources and their metadata.
-    - E. Track AWS spending across multiple resources.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, E
-    </details>
-
-27. What are AWS shared controls?
-    - A. Controls that are solely the responsibility of the customer based on the application they are deploying within AWS services.
-    - B. Controls that a customer inherits from AWS.
-    - C. Controls that apply to both the infrastructure layer and customer layers.
-    - D. Controls that the customer and AWS collaborate together upon to secure the infrastructure.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-28. Which design principles relate to performance efficiency in AWS? (Choose TWO)
-    - A. Build multi-region architectures to better serve global customers.
-    - B. Apply security at all layers.
-    - C. Implement strong Identity and Access controls.
-    - D. Use serverless architectures.
-    - E. Enable audit logging.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, D
+        CUR은 AWS 비용 데이터 중 가장 상세한 보고서를 제공합니다.
     </details>
 
 29. Which of the below are responsibilities of the customer when using Amazon EC2? (Choose TWO)
@@ -302,28 +149,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, E
-    </details>
-
-30. Why would an organization decide to use AWS over an on-premises data center? (Choose TWO)
-    - A. Free commercial software licenses.
-    - B. Free technical support.
-    - C. Elastic resources.
-    - D. On-site visits for auditing.
-    - E. Cost Savings.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C, E
-    </details>
-
-31. Which of the following AWS services can help you perform security analysis and regulatory compliance auditing? (Choose TWO)
-    - A. Amazon Inspector.
-    - B. AWS Virtual Private Gateway.
-    - C. AWS Batch.
-    - D. Amazon ECS.
-    - E. AWS Config.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, E
+        EC2(IaaS)에서 데이터와 게스트 OS/애플리케이션 관리는 고객의 책임입니다.
     </details>
 
 32. Which of the following is NOT a characteristic of Amazon Elastic Compute Cloud (Amazon EC2)?
@@ -334,16 +160,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
-    </details>
-
-33. What is the AWS Compute service that executes code only when triggered by events?
-    - A. AWS Lambda.
-    - B. Amazon CloudWatch.
-    - C. AWS Transit Gateway.
-    - D. Amazon EC2.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+        EC2는 IaaS이며 서버리스가 아닙니다 (Lambda가 서버리스).
     </details>
 
 34. Both AWS and traditional IT distributors provide a wide range of virtual servers to meet their customers’ requirements. What is the name of these virtual servers in AWS?
@@ -354,26 +171,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
-    </details>
-
-35. What is the framework created by AWS Professional Services that helps organizations design a road map to successful cloud adoption?
-    - A. AWS Secrets Manager.
-    - B. AWS WAF.
-    - C. AWS CAF.
-    - D. Amazon EFS.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-36. TYMO Cloud Corp is looking forward to migrating their entire on-premises data center to AWS. What tool can they use to perform a cost-benefit analysis of moving to the AWS Cloud?
-    - A. AWS Cost Explorer.
-    - B. AWS TCO Calculator.
-    - C. AWS Budgets.
-    - D. AWS Pricing Calculator.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+        AWS의 가상 서버는 EC2 인스턴스입니다.
     </details>
 
 37. Which of the following activities supports the Operational Excellence pillar of the AWS Well-Architected Framework?
@@ -384,17 +182,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
-    </details>
-
-38. Why do many startup companies prefer AWS over traditional on-premises solutions? (Choose TWO)
-    - A. AWS allows them to pay later when their business succeed.
-    - B. AWS can build complete data centers faster than any other Cloud provider.
-    - C. Using AWS, they can reduce time-to-market by focusing on business activities rather than on building and managing data centers.
-    - D. AWS removes the need to invest in operational expenditure.
-    - E. Using AWS allows companies to replace large capital expenditure with low variable costs.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C, E
+        **IaC (CloudFormation)**를 사용하는 것은 운영의 자동화 및 일관성을 확보하는 운영 우수성 모범 사례입니다.
     </details>
 
 39. What are the benefits of using DynamoDB? (Choose TWO)
@@ -406,28 +194,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, D
-    </details>
-
-40. Which of the following can be used to protect data at rest on Amazon S3? (Choose TWO)
-    - A. Versioning.
-    - B. Deduplication.
-    - C. Permissions.
-    - D. Decryption.
-    - E. Conversion.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, C
-    </details>
-
-41. As part of the AWS Migration Acceleration Program (MAP), what does AWS provide to accelerate Enterprise adoption of AWS? (Choose TWO)
-    - A. AWS Partners.
-    - B. AWS Artifact.
-    - C. AWS Professional Services.
-    - D. Amazon Athena.
-    - E. Amazon PinPoint.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, C
+        DynamoDB는 자동 확장되며 일관된 낮은 지연 시간을 제공하는 NoSQL DB입니다.
     </details>
 
 42. AWS recommends some practices to help organizations avoid unexpected charges on their bill. Which of the following is NOT one of these practices?
@@ -438,27 +205,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
-    </details>
-
-43. What is the AWS tool that can help a company visualize their AWS spending in the last few months?
-    - A. AWS Cost Explorer.
-    - B. AWS Pricing Calculator.
-    - C. AWS Budgets.
-    - D. AWS Consolidated Billing.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-44. When running a workload in AWS, the customer is NOT responsible for: (Select TWO)
-    - A. Running penetration tests.
-    - B. Reserving capacity.
-    - C. Data center operations.
-    - D. Auditing and regulatory compliance.
-    - E. Infrastructure security.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C, E
+        시작 구성 자체는 비용이 발생하지 않습니다.
     </details>
 
 45. Which AWS service can be used to send promotional text messages (SMS) to more than 200 countries worldwide?
@@ -469,17 +216,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
-    </details>
-
-46. Which of the following allows you to create new RDS instances? (Choose TWO)
-    - A. AWS CodeDeploy.
-    - B. AWS Quick Starts.
-    - C. AWS CloudFormation.
-    - D. AWS DMS.
-    - E. AWS Management Console.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C, E
+        SNS는 대규모 SMS 전송을 지원합니다.
     </details>
 
 47. One of the major advantages of using AWS is cost savings. What does AWS provide to reduce the cost of running Amazon EC2 instances?
@@ -490,35 +227,5 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
+        초 단위 청구는 사용한 만큼만 지불하게 하여 비용 효율성을 높입니다.
     </details>
-
-48. Which AWS Group assists customers in achieving their desired business outcomes?
-    - A. AWS Security Team.
-    - B. AWS Professional Services.
-    - C. AWS Trusted Advisor.
-    - D. AWS Concierge Support Team.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-49. Which AWS service or feature is used to manage the keys used to encrypt customer data?
-    - A. AWS KMS.
-    - B. AWS Service Control Policies (SCPs).
-    - C. Multi-Factor Authentication (MFA).
-    - D. Amazon Macie.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-50. Which AWS Service allows customers to download AWS SOC & PCI reports?
-    - A. AWS Well-Architected Tool.
-    - B. AWS Artifact.
-    - C. AWS Glue.
-    - D. Amazon Chime.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
