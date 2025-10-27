@@ -12,17 +12,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
-    </details>
-
-2. Which features are included in the AWS Business Support Plan? (Choose TWO)
-    - A. 24x7 access to customer service.
-    - B. Access to Cloud Support Engineers via email only during business hours.
-    - C. Access to the Infrastructure Event Management (IEM) feature for additional fee.
-    - D. 24x7 access to the TAM feature.
-    - E. Partial access to the core Trusted Advisor checks.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, C
+        AZ는 컴퓨팅/스토리지 리소스를 위한 리전 내 격리된 데이터 센터이고, 엣지 로케이션은 CDN을 위한 글로벌 거점입니다.
     </details>
 
 3. A company is developing a mobile application and wants to allow users to use their Amazon, Apple, Facebook, or Google identities to authenticate to the application. Which AWS Service should the company use for this purpose?
@@ -33,27 +23,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
-    </details>
-
-4. Which AWS Service allows customers to create a template that programmatically defines policies and configurations of all AWS resources as code and so that the same template can be reused among multiple projects?
-    - A. AWS CloudFormation.
-    - B. AWS Config.
-    - C. AWS CloudTrail.
-    - D. AWS Auto Scaling.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-5. Which of the following are advantages of using AWS as a cloud computing provider? (Choose TWO)
-    - A. Eliminates the need to monitor servers and applications.
-    - B. Manages all the compliance and auditing tasks.
-    - C. Provides custom hardware to meet any specification.
-    - D. Eliminates the need to guess on infrastructure capacity needs.
-    - E. Enables customers to trade their capital expenses for operational expenses.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D, E
+        Cognito는 사용자 인증 및 권한 부여를 관리하며 **소셜 ID 연동(Federation)**을 지원합니다.
     </details>
 
 6. A customer is planning to migrate their Microsoft SQL Server databases to AWS. Which AWS Services can the customer use to run their Microsoft SQL Server database on AWS? (Choose TWO)
@@ -65,6 +35,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B, C
+        MSSQL은 EC2에서 직접 설치하거나 RDS에서 관리형으로 실행할 수 있습니다.
     </details>
 
 7. Which AWS Service can perform health checks on Amazon EC2 instances?
@@ -75,47 +46,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
-    </details>
-
-8. A company is developing an application that will leverage facial recognition to automate photo tagging. Which AWS Service should the company use for facial recognition?
-    - A. Amazon Comprehend.
-    - B. AWS IAM.
-    - C. Amazon Polly.
-    - D. Amazon Rekognition.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-9. Which of the following are examples of AWS-managed databases? (Choose TWO)
-    - A. Amazon Neptune.
-    - B. Amazon CloudSearch.
-    - C. Microsoft SQL Server on Amazon EC2.
-    - D. MySQL on Amazon EC2.
-    - E. Amazon RDS for MySQL.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, E
-    </details>
-
-10. A company’s AWS workflow requires that it periodically perform large-scale image and video processing jobs. The customer is seeking to minimize cost and has stated that the amount of time it takes to process these jobs is not critical, but that cost minimization is the most important factor in designing the solution. Which EC2 instance class is best suited for this processing?
-    - A. EC2 On-Demand Instances.
-    - B. EC2 Reserved Instances     - No Upfront.
-    - C. EC2 Spot Instances.
-    - D. EC2 Reserved Instances     - All Upfront.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-11. There is a requirement to grant a DevOps team full administrative access to all resources in an AWS account. Who can grant them these permissions?
-    - A. AWS account owner.
-    - B. AWS technical account manager.
-    - C. AWS security team.
-    - D. AWS cloud support engineers.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+        Route 53는 DNS 기반 상태 확인을 수행하여 비정상 엔드포인트로 트래픽이 전달되지 않도록 합니다.
     </details>
 
 12. You need to migrate a large number of on-premises workloads to AWS. Which AWS service is the most appropriate?
@@ -126,67 +57,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
-    </details>
-
-13. What are some key benefits of using AWS CloudFormation? (Choose TWO)
-    - A. It helps AWS customers deploy their applications without worrying about the underlying infrastructure.
-    - B. It applies advanced IAM security features automatically.
-    - C. It automates the provisioning and updating of your infrastructure in a safe and controlled manner.
-    - D. It allows you to model your entire infrastructure in just a text file.
-    - E. It compiles and builds application code in a timely manner.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C, D
-    </details>
-
-14. Which of the following is a cloud computing deployment model that connects infrastructure and applications between cloud-based resources and existing resources not located in the cloud?
-    - A. On-premises.
-    - B. Mixed.
-    - C. Hybrid.
-    - D. Cloud.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-15. A company is hosting business critical workloads in an AWS Region. To protect against data loss and ensure business continuity, a mirror image of the current AWS environment should be created in another AWS Region. Company policy requires that the standby environment must be available in minutes in case of an outage in the primary AWS Region. Which AWS service can be used to meet these requirements?
-    - A. CloudEndure Disaster Recovery.
-    - B. CloudEndure Migration.
-    - C. AWS Backup.
-    - D. AWS Glue.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-16. Which of the following S3 storage classes is most appropriate to host static assets for a popular e-commerce website with stable access patterns?
-    - A. S3 Standard-IA.
-    - B. S3 Intelligent-Tiering.
-    - C. S3 Glacier Deep Archive.
-    - D. S3 Standard.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-17. You want to create a backup of your data in another geographical location. Where should you create this backup?
-    - A. In another Edge location.
-    - B. In another Region.
-    - C. In another VPC.
-    - D. In another Availability Zone.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-18. Which statement is true in relation to the security of Amazon EC2?
-    - A. You should use instance store volumes to store login data.
-    - B. You should regularly patch the operating system and applications on your EC2 instances.
-    - C. You should deploy critical components of your application in the Availability Zone that you trust.
-    - D. You can track all API calls using Amazon Athena.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+        SMS는 온프레미스 서버를 AWS로 **이전(Lift and Shift)**하는 프로세스를 자동화합니다.
     </details>
 
 19. What does AWS Cost Explorer provide to help manage your AWS spend?
@@ -197,16 +68,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
-    </details>
-
-20. Which of the following is a feature of Amazon RDS that performs automatic failover when the primary database fails to respond?
-    - A. RDS Single-AZ.
-    - B. RDS Write Replica.
-    - C. RDS Snapshots.
-    - D. RDS Multi-AZ.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+        Cost Explorer는 과거 비용 분석과 함께 미래 비용 예측 기능을 제공합니다.
     </details>
 
 21. You are using several on-demand EC2 Instances to run your development environment. What is the best way to reduce your charges when these instances are not in use?
@@ -217,6 +79,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
+        중지하면 컴퓨팅 요금이 부과되지 않습니다. (스토리지(EBS) 요금은 계속 부과됩니다.)
     </details>
 
 22. Which of the following strategies helps protect your AWS root account?
@@ -227,6 +90,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
+        보안 모범 사례는 루트 액세스 키를 생성하지 않거나 삭제하고, IAM 사용자만 사용하는 것입니다.
     </details>
 
 23. Which of the following are factors should be considered for Amazon EBS pricing? (Choose TWO)
@@ -238,16 +102,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, C
-    </details>
-
-24. You have just set up your AWS environment and have created six IAM user accounts for the DevOps team. What is the AWS recommendation when granting permissions to these IAM accounts?
-    - A. Attach a separate IAM policy for each individual account.
-    - B. Apply the Principle of Least Privilege.
-    - C. For security purposes, you should not grant any permission to the DevOps team.
-    - D. Create six different IAM passwords.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+        EBS 요금은 볼륨 크기와 스냅샷 저장 공간에 따라 부과됩니다.
     </details>
 
 25. Which of the following has the greatest impact on cost? (Choose TWO)
@@ -259,56 +114,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, D
-    </details>
-
-26. Who from the following will get the largest discount?
-    - A. A user who chooses to buy On-demand, Convertible, Partial upfront instances.
-    - B. A user who chooses to buy Reserved, Convertible, All upfront instances.
-    - C. A user who chooses to buy Reserved, Standard, No upfront instances.
-    - D. A user who chooses to buy Reserved, Standard, All upfront instances.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-27. Which of the following is an available option when purchasing Amazon EC2 instances?
-    - A. The ability to bid to get the lowest possible prices.
-    - B. The ability to register EC2 instances to get volume discounts on every hour the instances are running.
-    - C. The ability to buy Dedicated Instances for up to 90% discount.
-    - D. The ability to pay upfront to get lower hourly costs.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-28. What does the term “Economies of scale” mean?
-    - A. It means that you save more when you consume more.
-    - B. It means as more time passes using AWS, you pay more for its services.
-    - C. It means that AWS will continuously lower costs as it grows.
-    - D. It means that you have the ability to pay as you go.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-29. A company experiences fluctuations in traffic patterns to their e-commerce website when running flash sales. What service can help the company dynamically match the required compute capacity to handle spikes in traffic during flash sales?
-    - A. AWS Auto Scaling.
-    - B. Amazon Elastic Compute Cloud.
-    - C. Amazon Elastic File System.
-    - D. Amazon ElastiCache.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-30. Which of the below options is true of Amazon VPC?
-    - A. Amazon VPC allows customers to control user interactions with all other AWS resources.
-    - B. AWS Customers have complete control over their Amazon VPC virtual networking environment.
-    - C. AWS is responsible for all the management and configuration details of Amazon VPC.
-    - D. Amazon VPC helps customers to review their AWS architecture and adopt best practices.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+        일반적으로 컴퓨팅과 데이터 외부 전송이 AWS 비용의 가장 큰 부분을 차지합니다.
     </details>
 
 31. Which tool can a non-AWS customer use to compare the cost of on-premises environment resources to AWS?
@@ -319,37 +125,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
-    </details>
-
-32. Which of the following services provide real-time auditing for compliance and vulnerabilities? (Choose TWO)
-    - A. AWS Config.
-    - B. Amazon Redshift.
-    - C. Amazon MQ.
-    - D. AWS Trusted Advisor.
-    - E. Amazon Cognito.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, D
-    </details>
-
-33. Which of the following AWS services uses Puppet to automate how EC2 instances are configured?
-    - A. AWS OpsWorks.
-    - B. AWS CloudFormation.
-    - C. AWS Quick Starts.
-    - D. AWS CloudTrail.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-34. An organization uses a hybrid cloud architecture to run their business. Which AWS service enables them to deploy their applications to any AWS or on-premises server?
-    - A. Amazon Kinesis.
-    - B. Amazon QuickSight.
-    - C. AWS CodeDeploy.
-    - D. Amazon Athena.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+        TCO 계산기는 AWS와 온프레미스 환경의 총 소유 비용을 비교하는 데 사용됩니다.
     </details>
 
 35. Select the services that are server-based: (Choose TWO)
@@ -361,16 +137,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, E
-    </details>
-
-36. What best describes penetration testing?
-    - A. Testing your application’s response time from different locations.
-    - B. Testing your network to find security vulnerabilities that an attacker could exploit.
-    - C. Testing your instances to check for the unhealthy ones.
-    - D. Testing your software for bugs and errors.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+        이 서비스들은 AWS가 관리하지만, 기저의 EC2 인스턴스에서 실행되므로 Lambda/DynamoDB 같은 진정한 서버리스 서비스와 구분됩니다.
     </details>
 
 37. Which of the following are use cases for Amazon EMR? (Choose TWO)
@@ -382,6 +149,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C, D
+        EMR은 빅 데이터 처리 및 분석을 위한 Hadoop/Spark 관리형 클러스터 서비스입니다.
     </details>
 
 38. Your CTO has asked you to contact AWS support using the chat feature to ask for guidance related to EBS. However, when you open the AWS support center you can't see a way to contact support via Chat. What should you do?
@@ -392,26 +160,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
-    </details>
-
-39. A developer wants to quickly deploy and manage his application in the AWS Cloud, but he doesn’t have any experience with cloud computing. Which of the following AWS services would help the developer achieve his goal?
-    - A. AWS Fargate.
-    - B. AWS Batch.
-    - C. Amazon Personalize.
-    - D. AWS Elastic Beanstalk.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-40. Which statement best describes the AWS Pay-As-You-Go pricing model?
-    - A. With AWS, you replace low upfront expenses with large variable payments.
-    - B. With AWS, you replace low upfront expenses with large fixed payments.
-    - C. With AWS, you replace large upfront expenses with low fixed payments.
-    - D. With AWS, you replace large capital expenses with low variable payments.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+        **채팅 및 전화 지원(24x7)**은 Business Support 플랜부터 제공됩니다.
     </details>
 
 41. For Amazon RDS databases, what does AWS perform on your behalf? (Choose TWO)
@@ -423,16 +172,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, C
-    </details>
-
-42. Which of the following strategies help analyze costs in AWS?
-    - A. Using tags to group resources.
-    - B. Using AWS CloudFormation to automate the deployment of resources.
-    - C. Deploying resources of the same type in different regions.
-    - D. Configuring Amazon Inspector to automatically analyze costs and email reports.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+        RDS는 관리형 서비스이므로 AWS가 기반 OS와 DB 설치/설정을 처리합니다.
     </details>
 
 43. A media company has an application that requires the transfer of large data sets to and from AWS every day. This data is business critical and should be transferred over a consistent connection. Which AWS service should the company use?
@@ -443,16 +183,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
-    </details>
-
-44. What is the main benefit of the AWS Storage Gateway service?
-    - A. It automates the process of building, maintaining, and running ETL jobs.
-    - B. It provides physical devices to migrate data from on premises to AWS.
-    - C. It allows integration of on-premises IT environments with Cloud Storage.
-    - D. It provides hardware-based key storage for regulatory compliance.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+        Direct Connect는 전용의 일관된 고대역폭 사설 네트워크 연결을 제공합니다.
     </details>
 
 45. To protect against data loss, you need to backup your database regularly. What is the most cost-effective storage option that provides immediate retrieval of your backups?
@@ -463,37 +194,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
-    </details>
-
-46. Which service can you use to route traffic to the endpoint that provides the best application performance for your users worldwide?
-    - A. AWS Global Accelerator.
-    - B. AWS Data Pipeline.
-    - C. AWS DAX Accelerator.
-    - D. AWS Transfer Acceleration.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-47. Why are Serverless Architectures more economical than Server-based Architectures?
-    - A. Serverless Architectures use new powerful computing devices.
-    - B. With the Server-based Architectures, compute resources continue to run all the time but with serverless architecture, compute resources are only used when code is being executed.
-    - C. When you reserve serverless capacity, you will get large discounts compared to server reservation.
-    - D. With Serverless Architectures you have the ability to scale automatically up or down as demand changes.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-48. Which of the below options are use cases of the Amazon Route 53 service? (Choose TWO)
-    - A. Point-to-point connectivity between an on-premises data center and AWS.
-    - B. Detects configuration changes in the AWS environment.
-    - C. DNS configuration and management.
-    - D. Manages global application traffic through a variety of routing types.
-    - E. Provides infrastructure security optimization recommendations.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C, D
+        Glacier보다 저렴하지는 않지만, 즉시(밀리초) 검색이 가능하면서도 Standard보다 저렴합니다.
     </details>
 
 49. You want to transfer 200 Terabytes of data from on-premises locations to the AWS Cloud, which of the following can do the job in a cost-effective way?
@@ -504,15 +205,5 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
+        Snowball은 **10PB 미만(200TB 포함)**의 대규모 데이터를 물리적 디바이스를 통해 전송하는 데 사용됩니다.
     </details>
-
-50. You have a real-time IoT application that requires sub-millisecond latency. Which of the following services should you use?
-    - A. Amazon Redshift.
-    - B. Amazon Athena.
-    - C. AWS Cloud9.
-    - D. Amazon ElastiCache for Redis.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
