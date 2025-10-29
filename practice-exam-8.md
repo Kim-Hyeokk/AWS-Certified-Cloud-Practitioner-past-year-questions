@@ -4,16 +4,6 @@ layout: exam
 
 # Practice Exam 8
 
-1. What is the main benefit of attaching security groups to an Amazon RDS instance?
-    - A. Manages user access and encryption keys.
-    - B. Controls what IP address ranges can connect to your database instance.
-    - C. Deploys SSL/TLS certificates for use with your database instance.
-    - D. Distributes incoming traffic across multiple targets.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
 2. A company wants to use Amazon Elastic Container Service (Amazon ECS) to run its containerized applications. For compliance reasons, the company wants to retain complete visibility and control over the underlying server cluster. Which Amazon ECS launch type will satisfy these requirements?
     - A. EC2 launch type.
     - B. Fargate launch type.
@@ -22,16 +12,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
-    </details>
-
-3. You have multiple standalone AWS accounts and you want to decrease your AWS monthly charges. What should you do?
-    - A. Try to remove unnecessary AWS accounts.
-    - B. Add the accounts to an AWS Organization and use Consolidated Billing.
-    - C. Track the AWS charges that are incurred by the member accounts.
-    - D. Enable AWS tiered-pricing before provisioning resources.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+        EC2 유형은 고객이 기반 EC2 인스턴스를 직접 관리하고 제어합니다.
     </details>
 
 4. You have been tasked with auditing the security of your VPC. As part of this process, you need to start by analyzing what inbound and outbound traffic is allowed on your EC2 instances. What two parts of the VPC do you need to check to accomplish this task?
@@ -42,37 +23,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
-    </details>
-
-5. What does the AWS "Business" support plan provide? (Choose TWO)
-    - A. Access to the full set of Trusted Advisor checks.
-    - B. Support Concierge Service.
-    - C. Less than 15 minutes response-time support if your business critical system goes down.
-    - D. AWS Support API.
-    - E. Proactive Technical Account Management.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, D
-    </details>
-
-6. You have just finished writing your application code. Which service can be used to automate the deployment and scaling of your application?
-    - A. Amazon Simple Storage Service.
-    - B. AWS Elastic Beanstalk.
-    - C. AWS CodeCommit.
-    - D. Amazon Elastic File System.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-7. Which statement is true in relation to security in AWS?
-    - A. AWS manages everything related to EC2 operating systems.
-    - B. AWS customers are responsible for patching any database software running on Amazon EC2.
-    - C. Server side encryption is the responsibility of AWS.
-    - D. AWS is responsible for the security of your application.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+        보안 그룹은 인스턴스 수준, 네트워크 ACL은 서브넷 수준에서 트래픽을 제어합니다.
     </details>
 
 8. Amazon EC2 instances are conceptually very similar to traditional servers. However, using Amazon EC2 server instances in the same manner as traditional hardware server instances is only a starting point. What are the main benefits of using the AWS EC2 instances instead of traditional servers? (Choose TWO)
@@ -84,6 +35,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, E
+        EC2는 **빠른 확장(E)**이 가능하고, 다중 AZ 배포를 통해 **내결함성(A)**을 높입니다.
     </details>
 
 9. Which statement is true regarding AWS pricing? (Choose TWO)
@@ -95,16 +47,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, C
-    </details>
-
-10. Which AWS service provides the EASIEST way to set up and manage a secure, well-architected, multi-account AWS environment?
-    - A. AWS Control Tower.
-    - B. Amazon Macie.
-    - C. AWS Systems Manager Patch Manager.
-    - D. AWS Security Hub.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+        종량제(Pay-as-you-go) 모델의 특징입니다.
     </details>
 
 11. A company is running a large web application that needs to always be available. The application tends to slow down when CPU usage is greater than 60%. How can they track when CPU usage goes above 60% for any of the EC2 Instances in their account?
@@ -115,6 +58,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
+        CloudWatch는 메트릭을 모니터링하고 경보를 설정하는 데 사용됩니다.
     </details>
 
 12. What is the recommended storage option when hosting an often-changing database on an Amazon EC2 instance?
@@ -125,27 +69,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
-    </details>
-
-13. You are working as a site reliability engineer (SRE) in an AWS environment, which of the following services helps monitor your applications?
-    - A. Amazon CloudWatch.
-    - B. Amazon CloudSearch.
-    - C. Amazon Elastic MapReduce.
-    - D. Amazon CloudHSM.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-14. What factors determine how you are charged when using AWS Lambda? (Choose TWO)
-    - A. Storage consumed.
-    - B. Number of requests to your functions.
-    - C. Number of volumes.
-    - D. Placement groups.
-    - E. Compute time consumed.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, E
+        EBS는 영구적인 블록 스토리지를 제공하며 EC2 인스턴스에 마운트하여 DB 저장소로 사용됩니다.
     </details>
 
 15. What are the main differences between an IAM user and an IAM role in AWS? (Choose TWO)
@@ -157,6 +81,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, B
+        사용자는 영구 자격 증명을 가진 한 사람을 나타내고, 역할은 임시 자격 증명을 가진 엔티티에 할당됩니다.
     </details>
 
 16. Which of the following actions may reduce Amazon EBS costs? (Choose TWO)
@@ -168,98 +93,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C, D
-    </details>
-
-17. What does Amazon GuardDuty do to protect AWS accounts and workloads?
-    - A. Notifies AWS customers about abuse events once they are reported.
-    - B. Continuously monitors AWS infrastructure and helps detect threats such as attacker reconnaissance or account compromise.
-    - C. Helps AWS customers identify the root cause of potential security issues.
-    - D. Checks security groups for rules that allow unrestricted access to AWS. resources.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-18. Which database service should you use if your application and data schema require "joins" or complex transactions?
-    - A. Amazon RDS.
-    - B. AWS Outposts.
-    - C. Amazon DocumentDB.
-    - D. Amazon DynamoDB.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-19. Which of the following makes it easier for you to categorize, manage and filter your resources?
-    - A. Amazon CloudWatch.
-    - B. AWS Service Catalog.
-    - C. AWS Directory Service.
-    - D. AWS Tagging.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-20. What should you consider when storing data in Amazon Glacier?
-    - A. Amazon Glacier only accepts data in a compressed format.
-    - B. Glacier can only be used to store frequently accessed data and data archives.
-    - C. Amazon Glacier does not provide immediate retrieval of data.
-    - D. Attach Glacier to an EC2 Instance to be able to store data.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-21. Engineers are wasting a lot of time and effort managing batch computing software in traditional data centers. Which of the following AWS services allows them to easily run thousands of batch computing jobs?
-    - A. Amazon EC2.
-    - B. AWS Batch.
-    - C. Lambda@Edge.
-    - D. AWS Fargate.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-22. How can you increase your application’s fault-tolerance while it is being hosted in AWS?
-    - A. Deploy your application across multiple EC2 instances.
-    - B. Deploy your application across multiple Availability Zones.
-    - C. Host your application on one powerful EC2 instance type instead of multiple smaller instances.
-    - D. Deploy the underlying application resources across multiple subnets.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-23. Which of the following AWS Support Plans gives you 24/7 access to Cloud Support Engineers via email & phone? (Choose TWO)
-    - A. Developer.
-    - B. Premium.
-    - C. Enterprise.
-    - D. Standard.
-    - E. Business.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C, E
-    </details>
-
-24. Which of the following requires an access key ID and a secret access key to get long-lived programmatic access to AWS resources? (Choose TWO)
-    - A. IAM group.
-    - B. IAM user.
-    - C. IAM role.
-    - D. AWS account root user.
-    - E. TAM.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, D
-    </details>
-
-25. Which of the following is a benefit of the "Loose Coupling" architecture principle?
-    - A. It eliminates the need for change management.
-    - B. It allows for Cross-Region Replication.
-    - C. It helps AWS customers reduce Privileged Access to AWS resources.
-    - D. It allows individual application components or services to be modified without affecting other components.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+        **스냅샷(C)**은 스토리지 비용을 발생시키며, **볼륨 유형(D)**은 성능/비용에 영향을 줍니다.
     </details>
 
 26. A company needs to host a big data application on AWS using EC2 instances. Which of the following AWS Storage services would they choose to automatically get high throughput to multiple compute nodes?
@@ -270,6 +104,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
+        EFS는 여러 EC2 인스턴스에서 동시에 접근 가능하며, 높은 처리량을 제공하는 파일 시스템입니다.
     </details>
 
 27. Which of the following Cloud Computing deployment models eliminates the need to run and maintain physical data centers?
@@ -280,6 +115,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
+        클라우드 모델은 물리적 인프라 관리를 AWS에 아웃소싱합니다.
     </details>
 
 28. What are the benefits of the AWS Marketplace service? (Choose TWO)
@@ -291,6 +127,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D, E
+        Marketplace는 다양한 가격 옵션을 제공하며, 소프트웨어는 AWS 또는 온프레미스에서 실행될 수 있습니다.
     </details>
 
 29. What is the benefit of Amazon EBS volumes being automatically replicated within the same availability zone?
@@ -301,6 +138,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
+        복제는 단일 하드웨어 오류 발생 시 데이터 손실을 방지하여 내구성을 보장합니다.
     </details>
 
 30. You are planning to launch an advertising campaign over the coming weekend to promote a new digital product. It is expected that there will be heavy spikes in load during the campaign period, and you can’t afford any downtime. You need additional compute resources to handle the additional load. What is the most cost-effective EC2 instance purchasing option for this job?
@@ -311,37 +149,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
-    </details>
-
-31. Which of the following AWS services integrates with AWS Shield and AWS Web Application Firewall (AWS WAF) to protect against network and application layer DDoS attacks?
-    - A. Amazon EFS.
-    - B. AWS Secrets Manager.
-    - C. AWS Systems Manager.
-    - D. Amazon CloudFront.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-32. Which of the following services is used when encrypting EBS volumes?
-    - A. AWS WAF.
-    - B. AWS KMS.
-    - C. Amazon Macie.
-    - D. Amazon GuardDuty.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-33. The AWS account administrator of your company has been fired. With the permissions granted to him as an administrator, he was able to create multiple IAM user accounts and access keys. Additionally, you are not sure whether he has access to the AWS root account or not. What should you do immediately to protect your AWS infrastructure? (Choose TWO)
-    - A. Download all the attached policies in a safe place.
-    - B. Delete all IAM accounts and recreate them.
-    - C. Use the CloudWatch service to check all API calls that have been made in your account since the administrator was fired.
-    - D. Rotate all access keys.
-    - E. Change the email address and password of the root user account and enable MFA.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D, E
+        Spot은 중단될 수 있고, RI/Savings Plan은 장기 약정이 필요합니다. 온디맨드는 단기적이고 예측 불가능한 수요에 유연하고 가장 비용 효율적입니다.
     </details>
 
 34. What is the Amazon ElastiCache service used for? (Choose TWO)
@@ -353,6 +161,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, C
+        ElastiCache는 인메모리 캐싱을 통해 데이터베이스 또는 API 호출에 대한 지연 시간을 줄여 성능을 향상시킵니다.
     </details>
 
 35. The elasticity of the AWS Cloud enables customers to save costs when compared to traditional hosting providers. What can AWS customers do to benefit from the elasticity of the AWS Cloud? (Choose TWO)
@@ -364,17 +173,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B, E
-    </details>
-
-36. What are some of the benefits of using On-Demand EC2 instances? (Choose TWO)
-    - A. They provide free capacity when testing your new applications.
-    - B. They are cheaper than all other EC2 options.
-    - C. They remove the need to buy “safety net” capacity to handle periodic traffic spikes.
-    - D. They only require 1-2 days for setup and configuration.
-    - E. You can increase or decrease your compute capacity depending on the demands of your application.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C, E
+        Auto Scaling과 서버리스는 수요 변화에 따라 리소스를 자동으로 확장/축소하여 낭비를 줄입니다.
     </details>
 
 37. Each AWS Region is composed of multiple Availability Zones. Which of the following best describes what an Availability Zone is?
@@ -385,16 +184,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
-    </details>
-
-38. AWS provides disaster recovery capability by allowing customers to deploy infrastructure into multiple [...].
-    - A. Regions.
-    - B. Transportation devices.
-    - C. Support plans.
-    - D. Edge locations.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+        AZ는 논리적으로 분리되어 있으면서도 지리적으로는 가까운 독립된 데이터 센터입니다.
     </details>
 
 39. A financial services company decides to migrate one of its applications to AWS. The application deals with sensitive data, such as credit card information, and must run on a PCI-compliant environment. Which of the following is the company’s responsibility when building a PCI-compliant environment in AWS? (Choose TWO)
@@ -406,6 +196,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B, C
+        공유 책임 모델에 따라 구성(B) 및 **고객 측 데이터 관리/정책(C)**은 고객의 책임입니다.
     </details>
 
 40. What is the maximum amount of data that can be stored in S3 in a single AWS account?
@@ -416,6 +207,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: B
+        S3는 무제한 스토리지 용량을 제공합니다.
     </details>
 
 41. Which pillar of the AWS Well-Architected Framework provides recommendations to help customers select the right compute resources based on workload requirements?
@@ -426,76 +218,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
-    </details>
-
-42. Which AWS service delivers data, videos, applications, and APIs to users globally with low latency and high transfer speeds?
-    - A. Amazon Route 53.
-    - B. Amazon Connect.
-    - C. Amazon CloudFront.
-    - D. Amazon EC2.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-43. Which of the following steps should be taken by a customer when conducting penetration testing on AWS?
-    - A. Conduct penetration testing using Amazon Inspector, and then notify AWS support.
-    - B. Request and wait for approval from the customer’s internal security team, and then conduct testing.
-    - C. Notify AWS support, and then conduct testing immediately.
-    - D. Request and wait for approval from AWS support, and then conduct testing.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-44. Which AWS Cost Management tool allows you to view the most granular data about your AWS bill?
-    - A. AWS Cost Explorer.
-    - B. AWS Budgets.
-    - C. AWS Cost and Usage report.
-    - D. AWS Billing dashboard.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
-    </details>
-
-45. Which element of the AWS global infrastructure consists of one or more discrete data centers each with redundant power networking and connectivity which are housed in separate facilities?
-    - A. AWS Regions.
-    - B. Availability Zones.
-    - C. Edge locations.
-    - D. Amazon CloudFront.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-46. How many Availability Zones should compute resources be provisioned across to achieve high availability?
-    - A. A minimum of one.
-    - B. A minimum of two.
-    - C. A minimum of three.
-    - D. A minimum of four or more.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-47. The AWS Cloud’s multiple Regions are an example of:
-    - A. Agility.
-    - B. Global infrastructure.
-    - C. Elasticity.
-    - D. Pay-as-you-go pricing.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-48. Which AWS service can be used to manually launch instances based on resource requirements?
-    - A. Amazon EBS.
-    - B. Amazon S3.
-    - C. Amazon EC2.
-    - D. Amazon ECS.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+        성능 효율성 기둥은 리소스 선택 및 최적화에 중점을 둡니다.
     </details>
 
 49. Which is a recommended pattern for designing a highly available architecture on AWS?
@@ -506,6 +229,7 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
+        단일 장애 지점 제거는 고가용성의 기본 원칙입니다.
     </details>
 
 50. Which AWS characteristics make AWS cost effective for a workload with dynamic user demand? (Select TWO)
@@ -517,5 +241,6 @@ layout: exam
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C, D
+        탄력성을 통해 필요한 만큼만 사용하고, 종량제를 통해 사용한 만큼만 지불하여 비용 효율성을 높입니다.
     </details>
 
